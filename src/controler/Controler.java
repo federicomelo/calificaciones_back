@@ -4,7 +4,7 @@ import java.io.File;
 import java.util.ArrayList;
 
 import model.Semester;
-import model.Subject;
+import model.Lecture;
 
 public class Controler implements GeneralInfo {
 	
@@ -13,13 +13,16 @@ public class Controler implements GeneralInfo {
 
 	public static void main(String[] args) {
 		Controler controler = new Controler();
-		controler.iterateSemesters();
+		String[] ss = {"2020-20", "2022-10"};
+		for (String s: ss) {
+			controler.
+			readSemester(s);
+		}
 		controler.printRecord();
 	}
 	
 	
-	private void iterateSemesters() {
-		String sSemester = "2020-20";
+	private void readSemester(String sSemester) {
 		int year = Integer.valueOf(sSemester.substring(0,4));
 		int period = Integer.valueOf(sSemester.substring(5));
 		Semester semester = new Semester(year, period);
@@ -33,7 +36,7 @@ public class Controler implements GeneralInfo {
 		String[] subjectLine = null;
 		String[] creditsLine = null;
 		String[] professorsLine = null;
-		Subject subject = null;
+		Lecture lecture = null;
 		
 		int i = 0;
 		while (i < semesterFile.size()) {
@@ -42,8 +45,8 @@ public class Controler implements GeneralInfo {
 			/* Checks if everything that is needed to declare an instance of Subject is ready.
 			 * If so, the instance is declared*/
 			if ((subjectLine != null) && (creditsLine != null) && (professorsLine != null)) {
-				subject = Subject.createSubject(subjectLine, creditsLine, professorsLine);
-				semester.addSubject(subject);
+				lecture = Lecture.readLectureFromLines(subjectLine, creditsLine, professorsLine);
+				semester.addSubject(lecture);
 				subjectLine = null;
 				creditsLine = null;
 				professorsLine = null;
@@ -59,11 +62,11 @@ public class Controler implements GeneralInfo {
 				} else if (line[0].equals(PROFESSOR)) {
 					professorsLine = line;
 				} else if (line[0].equals(EXTRA_POINTS)) {
-					subject.giveExtraPoints(line);
+					lecture.giveExtraPoints(line);
 				} else if (line[0].equals(GRADE_ROUNDING_POLICY)) {
-					subject.defineGradeRoundingPolicy(line);
+					lecture.defineGradeRoundingPolicy(line);
 				} else {
-					subject.createAssignment(line);
+					lecture.createAssignment(line);
 				}
 			}
 			
@@ -77,9 +80,9 @@ public class Controler implements GeneralInfo {
 	public void printRecord() {
 		for (Semester semester: semesters) {
 			System.out.println(semester.getWhichSemester());
-			for (Subject subject: semester.getSubjects()) {
-				System.out.println(subject.getFormatedName());
-				System.out.println(subject.getFinalGrade());
+			for (Lecture lecture: semester.getSubjects()) {
+				System.out.println(lecture.getFormatedName());
+				System.out.println(lecture.getFinalGrade());
 			}
 			System.out.println(semester.getAverage());
 		}

@@ -13,7 +13,7 @@ public class Semester {
 	private int year;
 	private int period;
 	double average;
-	private ArrayList<Subject> subjects = new ArrayList<Subject>();
+	private ArrayList<Lecture> lectures = new ArrayList<Lecture>();
 	
 	
 	public Semester(int year, int period) {
@@ -26,9 +26,9 @@ public class Semester {
 	private void computeAverage() {
 		double average = 0.;
 		int creditCount = 0;
-		for (Subject subject: subjects) {
-			creditCount += subject.getCredits();
-			average += subject.getFinalGrade()*subject.getCredits();
+		for (Lecture lecture: lectures) {
+			creditCount += lecture.getCredits();
+			average += lecture.getFinalGrade()*lecture.getCredits();
 		}
 		this.average = GradeRoundingPolicy.roundToHundredth(average / creditCount);
 	}
@@ -104,8 +104,8 @@ public class Semester {
 	}
 
 
-	public void addSubject(Subject subject) {
-		subjects.add(subject);
+	public void addSubject(Lecture lecture) {
+		lectures.add(lecture);
 	}
 	
 	
@@ -116,8 +116,8 @@ public class Semester {
 	}
 	
 	
-	public ArrayList<Subject> getSubjects() {
-		return this.subjects;
+	public ArrayList<Lecture> getSubjects() {
+		return this.lectures;
 	}
 
 	

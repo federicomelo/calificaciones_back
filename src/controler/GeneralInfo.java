@@ -15,5 +15,6 @@ public interface GeneralInfo {
 	public static final String PROFESSOR = "PROFESSOR";
 	public static final String EXTRA_POINTS = "EXTRA";
 	public static final String GRADE_ROUNDING_POLICY = "ROUND";
+	public static final String DISCUSSION = "DISCUSSION";
 }
 

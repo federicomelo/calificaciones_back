@@ -29,6 +29,9 @@ public class GradeRoundingPolicy {
 				roundedGrade = Math.round(grade*10.)/10.;  // 4.656 => 4.70
 			} 
 		}
+		if (roundedGrade > 5) {
+			roundedGrade = 5.;
+		}
 		return roundedGrade;
 	}
 	
