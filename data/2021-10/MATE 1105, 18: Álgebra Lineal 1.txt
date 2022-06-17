@@ -1,0 +1,25 @@
+MATE 1105, 18: Álgebra Lineal 1 
+
+---------------------------Información de la materia---------------------------
+
+Nombre: Álgebra Lineal 1
+Profesor(es): Carolina Benedetti Velásquez
+Semestre: 2021-10
+Departamento: Departamento de Matemáticas (MATE)
+Código: 1105
+Sección: 18
+
+---------------------------------Calificaciones--------------------------------
+
+Nota final sin aproximaciones ni bonos: 
+Bonos:
+Política de aproximación:
+Nota final: 5.0
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo: nota (ponderación)]
+
+Complementaria MATE 1105, 18: Álgebra Lineal 1: 5.0 (0.2)
+Examen acumulativo 1: 4.58 (0.2)
+Examen acumulativo 2: 5.0 (0.2)
+Examen acumulativo 3: 5.0 (0.2)
+Examen final: 5.0 (0.2)

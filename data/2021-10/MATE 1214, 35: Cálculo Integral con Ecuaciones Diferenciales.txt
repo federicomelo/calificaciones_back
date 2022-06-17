@@ -1,0 +1,25 @@
+MATE 1214, 35: Cálculo Integral con Ecuaciones Diferenciales 
+
+---------------------------Información de la materia---------------------------
+
+Nombre: Cálculo Integral con Ecuaciones Diferenciales
+Profesor(es): Ahmed Ould Khaoua
+Semestre: 2021-10
+Departamento: Departamento de Matemáticas (MATE)
+Código: 1214
+Sección: 35
+
+---------------------------------Calificaciones--------------------------------
+
+Nota final sin aproximaciones ni bonos: 
+Bonos:
+Política de aproximación:
+Nota final: 4.61
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo: nota (ponderación)]
+
+Complementaria MATE 1214, 35: Cálculo Integral con Ecuaciones Diferenciales: 5.0 (0.15)
+Examen parcial 1: Integración: 4.6 (0.2)
+Examen parcial 2: Ecuaciones diferenciales: 4.3 (0.2)
+Examen parcial 3: Sucesiones y series: 4.4 (0.2)
+Examen final: 4.8 (0.25)

@@ -1,0 +1,28 @@
+QUIM 1103, 2: Química 
+
+---------------------------Información de la materia---------------------------
+
+Nombre: Química
+Profesor(es): Ricardo Eusebio Rivas Morales, Luisa Fernanda Velásquez (Profesora Asistente)
+Semestre: 2021-10
+Departamento: Departamento de Química (QUIM)
+Código: 1103
+Sección: 2
+
+---------------------------------Calificaciones--------------------------------
+
+Nota final sin aproximaciones ni bonos: 
+Bonos:
+Política de aproximación:
+Nota final: 5.0
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo: nota (ponderación)]
+
+Laboratorio QUIM 1104, 26: Laboratorio de Química: 5.0 (0.3)
+Examen parcial 1: Nomenclatura y estequeometría: 5.0 (0.14)
+Quiz 1: Ecuaciones molecular, iónica y iónica neta: 5.0 (0.02)
+Examen parcial 2: Estequeometría y Redox: 5.0 (0.14)
+Examen parcial 3: 5.0 (0.14)
+Quiz 2: Equilibrio dinámico: 5.0 (0.02)
+Quiz 3: Soluciones reguladoras, solubilidad y pH: 5.0 (0.03)
+Examen final acumulativo: 5.0 (0.21)

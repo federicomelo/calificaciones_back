@@ -1,27 +1,36 @@
 package model;
 
+import java.io.File;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Semester {
-	
-	String name;
-	String whichSemester;
-	int semesterCount;
+	private String yearAndPeriod;
+	private String name;
+	private String whichSemester;
+	private int semesterCount;
 	private LocalDate startingDate;
 	private LocalDate endingDate;
 	private int year;
 	private int period;
 	double average;
+	int credits;
 	private ArrayList<Lecture> lectures = new ArrayList<Lecture>();
 	
 	
 	public Semester(int year, int period) {
 		this.year = year;
 		this.period = period;
+		this.yearAndPeriod = String.valueOf(year)+"-"+String.valueOf(period);
 		defineName(year, period);
 	}
 
+	
+	public File locateDirectory() {
+		File path = new File(System.getProperty("user.dir")+File.separator+"data"+File.separator+yearAndPeriod);
+		return path;
+	}
+	
 	
 	private void computeAverage() {
 		double average = 0.;
@@ -32,6 +41,34 @@ public class Semester {
 		}
 		this.average = GradeRoundingPolicy.roundToHundredth(average / creditCount);
 	}
+	
+	
+	public static double computeGPA(ArrayList<Semester> semesters) {
+		double gpa = 0;
+		double creditCount = 0;
+		for (Semester semester: semesters) {
+			for (Lecture lecture: semester.getSubjects()) {
+				creditCount += lecture.getCredits();
+				gpa += (lecture.getFinalGrade()*lecture.getCredits());
+			}
+		}
+		gpa = GradeRoundingPolicy.roundToHundredth(gpa/creditCount);
+		return gpa;
+	}
+		
+	
+	public static double computeGPABySemester(ArrayList<Semester> semesters) {
+		double gpa = 0;
+		double avrg = 0.;
+		double cred = 0.;
+		for (Semester semester: semesters) {
+			cred += semester.getCredits();
+			avrg += semester.getAverage()*semester.getCredits();
+		}
+		gpa = GradeRoundingPolicy.roundToHundredth(avrg/cred);
+		return gpa;
+	}
+	
 	
 	
 	private void defineName(int year, int period) {
@@ -82,7 +119,7 @@ public class Semester {
 		} else if (i==2) {
 			ordinal = "Segundo";
 		} else if (i==3) {
-			ordinal = "Tercero";
+			ordinal = "Tercer";
 		} else if (i==4) {
 			ordinal = "Cuarto";
 		} else if (i==5) {
@@ -106,6 +143,7 @@ public class Semester {
 
 	public void addSubject(Lecture lecture) {
 		lectures.add(lecture);
+		this.credits += lecture.getCredits();
 	}
 	
 	
@@ -134,6 +172,11 @@ public class Semester {
 		return this.semesterCount;
 	}
 
+	
+	public int getCredits() {
+		return credits;
+	}
+	
 
 	public int getYear() {
 		return year;
@@ -142,5 +185,10 @@ public class Semester {
 
 	public int getPeriod() {
 		return period;
+	}
+
+
+	public String getYearAndPeriod() {
+		return yearAndPeriod;
 	}
 }

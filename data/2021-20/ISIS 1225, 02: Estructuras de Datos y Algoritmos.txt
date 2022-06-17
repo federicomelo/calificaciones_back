@@ -1,0 +1,27 @@
+ISIS 1225, 02: Estructuras de Datos y Algoritmos 
+
+---------------------------Información de la materia---------------------------
+
+Nombre: Estructuras de Datos y Algoritmos
+Profesor(es): Darío Correal Torres, Santiago Arteaga Martín (Profesor Asistente)
+Semestre: 2021-20
+Departamento: Departamento de Ingeniería de Sistemas y Computación (ISIS)
+Código: 1225
+Sección: 02
+
+---------------------------------Calificaciones--------------------------------
+
+Nota final sin aproximaciones ni bonos: 
+Bonos:
+Política de aproximación:
+Nota final: 4.5
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo: nota (ponderación)]
+
+Reto 1: 4.58 (0.12)
+Examen parcial 1: Complejidades y estructuras de datos lineales: 4.5 (0.16)
+Reto 2: 4.92 (0.12)
+Examen parcial 2: Tablas de símbolos: 4.75 (0.16)
+Reto 3: 5.0 (0.14)
+Examen parcial 3: Grafos: 4.0 (0.16)
+Reto 4: 4.93 (0.14)

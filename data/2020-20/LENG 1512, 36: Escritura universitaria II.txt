@@ -1,0 +1,30 @@
+LENG 1512, 36: Escritura universitaria II 
+
+---------------------------Información de la materia---------------------------
+
+Nombre: Escritura universitaria II
+Profesor(es): Angela Denisse Cabezas Sarmiento
+Semestre: 2020-20
+Departamento: Departamento de Lenguas y Cultura (LENG)
+Código: 1512
+Sección: 36
+
+---------------------------------Calificaciones--------------------------------
+
+Nota final sin aproximaciones ni bonos: 
+Bonos:
+Política de aproximación:
+Nota final: 4.81
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo: nota (ponderación)]
+
+Quiz deductivo o inductivo: 5.0 (0.05)
+Diagrama de lectura de "Guy Debord 2.0: hacia un análisis de la mercantilización de la subjetividad en las redes sociales": 4.58 (0.1)
+Planteamiento de tesis para el texto argumentativo: 4.0 (0.1)
+Autoevaluación debate presidencial: 5.0 (0.05)
+Quiz dialéctico y falacias: 5.0 (0.05)
+Diagrama de texto argumentativo: 4.48 (0.1)
+Texto argumentativo final: 5.0 (0.3)
+Evaluación profesor debate Orator: 5.0 (0.05)
+Coevaluación debate boxing: 5.0 (0.05)
+Texto reflexivo: 5.0 (0.15)

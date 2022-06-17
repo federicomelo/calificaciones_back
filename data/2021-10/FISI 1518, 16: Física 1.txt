@@ -1,0 +1,26 @@
+FISI 1518, 16: Física 1 
+
+---------------------------Información de la materia---------------------------
+
+Nombre: Física 1
+Profesor(es): Carlos Andrés Florez Bustos
+Semestre: 2021-10
+Departamento: Departamento de Física (FISI)
+Código: 1518
+Sección: 16
+
+---------------------------------Calificaciones--------------------------------
+
+Nota final sin aproximaciones ni bonos: 
+Bonos:
+Política de aproximación:
+Nota final: 5.0
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo: nota (ponderación)]
+
+Complementaria FISI 1518, 16: Física 1: 4.87 (0.2)
+Quiz: Capítulo 1, secciones 1.1. a 3.3: 4.7 (0.04)
+Examen parcial 1: Capítulos 1 a 5: 5.0 (0.12)
+Examen parcial 2: Capítulos 6 a 9: 5.0 (0.12)
+Examen parcial 3: Capítulos 10 a 14: 3.93 (0.12)
+Examen final: 4.5 (0.2)

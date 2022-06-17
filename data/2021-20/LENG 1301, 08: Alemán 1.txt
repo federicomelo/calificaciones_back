@@ -1,0 +1,40 @@
+LENG 1301, 08: Alemán 1 
+
+---------------------------Información de la materia---------------------------
+
+Nombre: Alemán 1
+Profesor(es): Natalia Rincón Barrero
+Semestre: 2021-20
+Departamento: Departamento de Lenguas y Cultura (LENG)
+Código: 1301
+Sección: 08
+
+---------------------------------Calificaciones--------------------------------
+
+Nota final sin aproximaciones ni bonos: 
+Bonos:
+Política de aproximación:
+Nota final: 4.88
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo: nota (ponderación)]
+
+Quiz 1: 5.0 (0.01)
+Quiz 2: 4.0 (0.0)
+Quiz 2 con bono: 5.0 (0.01)
+Quiz 3: 5.0 (0.01)
+Quiz 4: 5.0 (0.01)
+Quiz 5: 5.0 (0.01)
+Moodle 1 (Kapitel 1 und 2 - Obligatorisch): 5.0 (0.05)
+Moodle 2 (Kapitel 3, 4, und 5 - Obligatorisch) con bono: 5.0 (0.05)
+Moodle 3  (Kapitel 6, 7, und 8 - Obligatorisch): 5.0 (0.05)
+Miniprojekt 1: 4.0 (0.05)
+Miniprojekt 2: 5.0 (0.05)
+Miniprojekt 3: 5.0 (0.05)
+Cartilla 1: 5.0 (0.016666666666666666)
+Cartilla 2: 5.0 (0.016666666666666666)
+Cartilla final: 5.0 (0.016666666666666666)
+Participación y asistencia 1: 5.0 (0.05)
+Participación y asistencia 2: 5.0 (0.05)
+Examen parcial 1: 4.8 (0.15)
+Examen parcial 2: 4.9 (0.15)
+Examen parcial 3: 4.7 (0.2)

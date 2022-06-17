@@ -10,12 +10,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Department implements GeneralInfo{
-	private Map<String, String> departments = new HashMap<String, String>();
+	private static Map<String, String> departments = new HashMap<String, String>();
 	private String code;
 	private String name;
 	
 	public Department(String code) throws Exception {
-		fillMap();
+		if (departments.isEmpty()) {
+			Department.fillDepartments();
+		}
 		this.code = code;
 		if (departments.containsKey(code)) {
 			this.name = departments.get(code);
@@ -26,11 +28,23 @@ public class Department implements GeneralInfo{
 	}
 	
 	
-	private void fillMap() {
+	public static boolean codeIsDepartment(String code) {
+		boolean isDepartment = false;
+		if (departments.isEmpty()) {
+			Department.fillDepartments();
+		}
+		if (departments.containsKey(code)) {
+			isDepartment = true;
+		} 
+		return isDepartment;
+	}
+	
+	
+	private static void fillDepartments() {
 		ArrayList<String[]> departmentsFile = GradesReader.readTSV(DATA.getAbsolutePath()+File.separator+"departamentos.tsv");
 		for (String[] line: departmentsFile) {
 			if (line.length > 1) {
-				this.departments.put(line[0], line[1]);
+				Department.departments.put(line[0], line[1]);
 			}
 		}
 	}

@@ -1,0 +1,32 @@
+ISIS 1221, 28: Introducción a la programación 
+
+---------------------------Información de la materia---------------------------
+
+Nombre: Introducción a la programación
+Profesor(es): Lizeth Andrea Herrera Suescún
+Semestre: 2020-20
+Departamento: Departamento de Ingeniería de Sistemas y Computación (ISIS)
+Código: 1221
+Sección: 28
+
+---------------------------------Calificaciones--------------------------------
+
+Nota final sin aproximaciones ni bonos: 
+Bonos:
+Política de aproximación:
+Nota final: 5.0
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo: nota (ponderación)]
+
+Tareas nivel 1: 5.0 (0.01)
+Proyecto nivel 1: 4.6 (0.04)
+Examen nivel 1: 4.65 (0.05)
+Tareas nivel 2: 5.0 (0.03)
+Proyecto nivel 2: 5.0 (0.05)
+Examen nivel 2: 5.0 (0.17)
+Tareas nivel 3: 5.0 (0.04)
+Examen nivel 3: 5.0 (0.25)
+Proyecto nivel 3: 5.0 (0.06)
+Tareas nivel 4: 5.0 (0.02)
+Proyecto nivel 4: 4.93 (0.05)
+Examen final: 5.0 (0.23)

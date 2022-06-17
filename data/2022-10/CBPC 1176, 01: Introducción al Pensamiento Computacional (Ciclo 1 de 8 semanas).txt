@@ -1,0 +1,80 @@
+CBPC 1176, 01: Introducción al Pensamiento Computacional (Ciclo 1 de 8 semanas) 
+
+---------------------------Información de la materia---------------------------
+
+Nombre: Introducción al Pensamiento Computacional (Ciclo 1 de 8 semanas)
+Profesor(es): Pablo Alejandro Figueroa Forero
+Semestre: 2022-10
+Departamento: CBU del Área de Pensamiento Científico (CBPC)
+Código: 1176
+Sección: 01
+
+---------------------------------Calificaciones--------------------------------
+
+Nota final sin aproximaciones ni bonos: 
+Bonos:
+Política de aproximación:
+Nota final: 5.0
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo: nota (ponderación)]
+
+Bono 0.3: Video corto de presentación personal: Realizado
+Bono 0.3: Verdadero o falso sobre presentación personal: Realizado
+Escrito inicial: 4.8 (0.15)
+CL1: Hansel y Gretel: 4.0 (0.01)
+Bono 0.3: Describir en formulario un algoritmo que utilice en su vida diaria: Realizado
+CL2: Estructuras de Datos: 4.0 (0.01)
+Bono: Usos de las Estructuras de Datos: Realizado
+CL3: Ordenamiento: 5.0 (0.01)
+Bono: Ordenamientos en la vida cotidiana: Realizado
+CL4: Estructuras de Control: 5.0 (0.01)
+CL5: Recursión: 5.0 (0.01)
+Bono IPC: Usos de la Recursión: Realizado
+CL6: Abstracción: 4.0 (0.01)
+Bono IPC: Abstracción en vida cotidiana: Realizado
+CL7: Lenguajes: 5.0 (0.01)
+Bono IPC: Lenguajes cotidianos similares a lenguajes de programación: Realizado
+CLE1: Algorithmic Inequity: 5.0 (0.01)
+CLE2: Pensamiento Deductivo (P): 5.0 (0.01)
+CLE3: Pensamiento Inductivo (P): 5.0 (0.01)
+CLE4: Seguridad en automóviles y máquinas: 5.0 (0.01)
+CLE5: The Recursive Universe: 5.0 (0.01)
+CLE6: Meritocracia: 5.0 (0.01)
+CLE7: Select One: 5.0 (0.01)
+Ejercicio individual 1: 5.0 (0.01)
+Ejercicio individual 2: 5.0 (0.01)
+Ejercicio individual 3: 5.0 (0.01)
+Ejercicio individual 4: 5.0 (0.01)
+Ejercicio individual 5: 5.0 (0.01)
+Ejercicio individual 6: 5.0 (0.01)
+Ejercicio individual 7: 5.0 (0.01)
+Trabajo de aplicación 1: 5.0 (0.02)
+Trabajo de aplicación 2: 5.0 (0.02)
+Trabajo de aplicación 3: 5.0 (0.02)
+Trabajo de aplicación 4: 5.0 (0.02)
+Trabajo de aplicación 5: 5.0 (0.02)
+Trabajo de aplicación 6: 5.0 (0.02)
+Trabajo de aplicación 7: 5.0 (0.02)
+Ejercicio grupal 1: 5.0 (0.01)
+Ejercicio grupal 2: 4.5 (0.01)
+Ejercicio grupal 3: 5.0 (0.01)
+Ejercicio grupal 4: 5.0 (0.01)
+Ejercicio grupal 5: 5.0 (0.01)
+Ejercicio grupal 6: 5.0 (0.01)
+Ejercicio grupal 7: 5.0 (0.01)
+Ética individual 1: 5.0 (0.01)
+Ética individual 2: 5.0 (0.01)
+Ética individual 3: 5.0 (0.01)
+Ética individual 4: 5.0 (0.01)
+Ética individual 5: 5.0 (0.01)
+Ética individual 6: 5.0 (0.01)
+Ética individual 7: 5.0 (0.01)
+Ética grupal 1: 5.0 (0.01)
+Ética grupal 2: 5.0 (0.01)
+Ética grupal 3: 5.0 (0.01)
+Ética grupal 4: 5.0 (0.01)
+Ética grupal 5: 5.0 (0.01)
+Ética grupal 6: 5.0 (0.01)
+Ética grupal 7: 5.0 (0.01)
+Video del Ensayo Final: 1.0 (0.0)
+Ensayo final: 5.0 (0.25)

@@ -69,7 +69,11 @@ public abstract class Course {
 			completionPercentage += assignment.getValue();
 		}
 		finalGrade += this.extraPoints;
-		this.finalGrade = gradeRoundingPolicy.round(finalGrade/completionPercentage);
+		try {
+			this.finalGrade = gradeRoundingPolicy.round(finalGrade/completionPercentage);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		this.completionPercentage = completionPercentage;
 	}
 	

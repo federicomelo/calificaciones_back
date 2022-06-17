@@ -41,6 +41,22 @@ public class Assignment {
 	public double getValue() {
 		return value;
 	}
+	
+	
+	public String getComment() {
+		return comment;
+	}
+	
+	
+	public String writeAssignment() {
+		String trabajo;
+		if (getGrade() > 0.) {
+			trabajo = getName()+": "+String.valueOf(getGrade())+" ("+String.valueOf(getValue())+")\n";
+		} else {
+			trabajo = getName()+": "+getComment()+"\n";
+		}
+		return trabajo;
+	}
 
 
 }
