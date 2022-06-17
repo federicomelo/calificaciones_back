@@ -15,12 +15,13 @@ Nota final sin aproximaciones ni bonos:
 Bonos:
 Política de aproximación:
 Nota final: 4.75
-----------------------------------Asignaciones---------------------------------
-[Nombre del trabajo: nota (ponderación)]
 
-Taller 1: Límites: 4.6 (0.1)
-Examen parcial 1: Límites: 5.0 (0.2)
-Examen parcial 2: Derivadas: 5.0 (0.2)
-Taller 2: Optimización: 4.9 (0.1)
-Examen parcial 3: Antiderivadas e integral definida: 5.0 (0.2)
-Examen final: 4.0 (0.2)
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo	nota	ponderación]
+
+Taller 1: Límites	4.6	0.1
+Examen parcial 1: Límites	5.0	0.2
+Examen parcial 2: Derivadas	5.0	0.2
+Taller 2: Optimización	4.9	0.1
+Examen parcial 3: Antiderivadas e integral definida	5.0	0.2
+Examen final	4.0	0.2

@@ -15,17 +15,18 @@ Nota final sin aproximaciones ni bonos:
 Bonos:
 Política de aproximación:
 Nota final: 5.0
-----------------------------------Asignaciones---------------------------------
-[Nombre del trabajo: nota (ponderación)]
 
-Podcast: Relación entre la Constitución de 1991 y la noción de DDHH: 4.5 (0.05)
-Párrafo: Ejemplo de colaboración armónica: 4.4 (0.05)
-Infografía: Rama judicial Colombia: 5.0 (0.1)
-Podcast: Acceso sin barreras a la interrupción voluntaria del embarazo: 4.7 (0.1)
-Quiz 1 módulo de economía: 4.5 (0.05)
-Quiz 2 módulo de economía: 5.0 (0.05)
-Texto argumentativo módulo de economía: 4.0 (0.05)
-Texto: Igualdad y no discriminación: 5.0 (0.1)
-Texto: Recomendaciones de la OMS para el manejo de futuras pandemias: 4.9 (0.15)
-Infografía: Jurisdicción Especial para la Paz (JEP) y justicia transicional: 4.8 (0.15)
-Coevaluación: 5.0 (0.15)
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo	nota	ponderación]
+
+Podcast: Relación entre la Constitución de 1991 y la noción de DDHH	4.5	0.05
+Párrafo: Ejemplo de colaboración armónica	4.4	0.05
+Infografía: Rama judicial Colombia	5.0	0.1
+Podcast: Acceso sin barreras a la interrupción voluntaria del embarazo	4.7	0.1
+Quiz 1 módulo de economía	4.5	0.05
+Quiz 2 módulo de economía	5.0	0.05
+Texto argumentativo módulo de economía	4.0	0.05
+Texto: Igualdad y no discriminación	5.0	0.1
+Texto: Recomendaciones de la OMS para el manejo de futuras pandemias	4.9	0.15
+Infografía: Jurisdicción Especial para la Paz (JEP) y justicia transicional	4.8	0.15
+Coevaluación	5.0	0.15

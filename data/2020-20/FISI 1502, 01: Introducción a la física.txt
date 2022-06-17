@@ -15,12 +15,13 @@ Nota final sin aproximaciones ni bonos:
 Bonos:
 Política de aproximación:
 Nota final: 5.0
-----------------------------------Asignaciones---------------------------------
-[Nombre del trabajo: nota (ponderación)]
 
-Tarea 1: Péndulo simple: 4.97 (0.15)
-Examen parcial 1: 5.0 (0.25)
-Tarea 2: Osciladores acoplados: 5.0 (0.15)
-Examen parcial 2: Expermiento osciladores acoplados: 5.0 (0.25)
-Tarea 3: El descubrimiento de la violación de paridad: 5.0 (0.15)
-Bono general del 5%: 5.0 (0.05)
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo	nota	ponderación]
+
+Tarea 1: Péndulo simple	4.97	0.15
+Examen parcial 1	5.0	0.25
+Tarea 2: Osciladores acoplados	5.0	0.15
+Examen parcial 2: Expermiento osciladores acoplados	5.0	0.25
+Tarea 3: El descubrimiento de la violación de paridad	5.0	0.15
+Bono general del 5%	5.0	0.05

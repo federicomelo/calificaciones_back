@@ -15,20 +15,21 @@ Nota final sin aproximaciones ni bonos:
 Bonos:
 Política de aproximación:
 Nota final: 4.97
-----------------------------------Asignaciones---------------------------------
-[Nombre del trabajo: nota (ponderación)]
 
-Complementaria FISI 2526, 01: Métodos Computacionales 1: 5.0 (0.25)
-Semana 2: Animación en Python: 5.0 (0.0625)
-Semana 3: Derivación - Campo eléctrico: 4.0 (0.0)
-Semana 4: Interpolación por Newton-Gregory para puntos no equiespaciados: 5.0 (0.0625)
-Semana 5: Cuadratura gaussiana y de Gauss-Laguerre: 5.0 (0.0625)
-Semana 6: Sistemas de ecuaciones lineales, colisión de dos discos rígidos: 5.0 (0.0625)
-Semana 8: Sobrerelajación MonteCarlo: 5.0 (0.0625)
-Semana 7: Mínimos cuadrados y sistemas de ecuaciones no lineales: 5.0 (0.0625)
-Semana 10: Introducción a probabilidad: 5.0 (0.0625)
-Semana 11: Conteo: 5.0 (0.0625)
-Semana 12: Covarianza: 5.0 (0.0625)
-Semana 3: Derivación - Campo eléctrico [con bono]: 4.5 (0.0625)
-Semana 13: Bondad del ajuste: 4.95 (0.0625)
-Exención Examen final: Hidden Markov models: 5.0 (0.0625)
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo	nota	ponderación]
+
+Complementaria FISI 2526, 01: Métodos Computacionales 1	5.0	0.25
+Semana 2: Animación en Python	5.0	0.0625
+Semana 3: Derivación - Campo eléctrico	4.0	0.0
+Semana 4: Interpolación por Newton-Gregory para puntos no equiespaciados	5.0	0.0625
+Semana 5: Cuadratura gaussiana y de Gauss-Laguerre	5.0	0.0625
+Semana 6: Sistemas de ecuaciones lineales, colisión de dos discos rígidos	5.0	0.0625
+Semana 8: Sobrerelajación MonteCarlo	5.0	0.0625
+Semana 7: Mínimos cuadrados y sistemas de ecuaciones no lineales	5.0	0.0625
+Semana 10: Introducción a probabilidad	5.0	0.0625
+Semana 11: Conteo	5.0	0.0625
+Semana 12: Covarianza	5.0	0.0625
+Semana 3: Derivación - Campo eléctrico [con bono]	4.5	0.0625
+Semana 13: Bondad del ajuste	4.95	0.0625
+Exención Examen final: Hidden Markov models	5.0	0.0625

@@ -15,10 +15,11 @@ Nota final sin aproximaciones ni bonos:
 Bonos:
 Política de aproximación:
 Nota final: 5.0
-----------------------------------Asignaciones---------------------------------
-[Nombre del trabajo: nota (ponderación)]
 
-Complementaria MATE 1207, 20: Cálculo Vectorial: 5.0 (0.25)
-Parcial 1: Derivación: 4.67 (0.0)
-Parcial 2: Integración: 5.0 (0.25)
-Parcial 1 con bono: 5.0 (0.25)
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo	nota	ponderación]
+
+Complementaria MATE 1207, 20: Cálculo Vectorial	5.0	0.25
+Parcial 1: Derivación	4.67	0.0
+Parcial 2: Integración	5.0	0.25
+Parcial 1 con bono	5.0	0.25

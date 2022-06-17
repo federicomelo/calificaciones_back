@@ -97,9 +97,9 @@ public class Lecture extends Course {
 							 + "Nota final sin aproximaciones ni bonos: \n"
 							 + "Bonos:\n"
 							 + "Política de aproximación:\n"
-							 + "Nota final: %s\n"
+							 + "Nota final: %s\n\n"
 							 + "----------------------------------Asignaciones---------------------------------\n"
-							 + "[Nombre del trabajo: nota (ponderación)]\n\n%s",
+							 + "[Nombre del trabajo	nota	ponderación]\n\n%s",
 							   titulo, nombre, profesores, semestre, departamento, codigo, seccion, notaFinal, 
 							   trabajos);
 			printWriter.close();

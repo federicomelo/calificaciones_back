@@ -51,9 +51,9 @@ public class Assignment {
 	public String writeAssignment() {
 		String trabajo;
 		if (getGrade() > 0.) {
-			trabajo = getName()+": "+String.valueOf(getGrade())+" ("+String.valueOf(getValue())+")\n";
+			trabajo = getName()+"	"+String.valueOf(getGrade())+"	"+String.valueOf(getValue())+"\n";
 		} else {
-			trabajo = getName()+": "+getComment()+"\n";
+			trabajo = getName()+"	"+getComment()+"\n";
 		}
 		return trabajo;
 	}

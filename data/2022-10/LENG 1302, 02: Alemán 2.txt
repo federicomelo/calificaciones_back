@@ -15,28 +15,29 @@ Nota final sin aproximaciones ni bonos:
 Bonos:
 Política de aproximación:
 Nota final: 4.88
-----------------------------------Asignaciones---------------------------------
-[Nombre del trabajo: nota (ponderación)]
 
-Quiz 1: 5.0 (0.01)
-Quiz 2: 5.0 (0.01)
-Quiz 3: 5.0 (0.01)
-Quiz 4: 5.0 (0.01)
-Quiz 5: 5.0 (0.01)
-Proyecto 1 Entrega 1: 5.0 (0.05)
-Proyecto 1: Infomercial: 5.0 (0.05)
-Proyecto 2: Karaoke: 5.0 (0.05)
-Plataforma corte 1: 5.0 (0.05)
-Plataforma corte 2: 4.8 (0.05)
-Plataforma corte 3: 5.0 (0.05)
-Participación y asistencia 1: 5.0 (0.05)
-Participación y asistencia 2: 5.0 (0.05)
-Frankenstein 1: 5.0 (0.03)
-Frankenstein 2: 5.0 (0.03)
-Übungsbuch (Bono nota tests): No lo completé
-Bloque Neón (V) (Bono nota de trabajo en plataforma): 5 insignias
-Oraciones de las camisetas o los fondos (Bono nota cartilla): No lo completé
-Quizlet (Bono nota participación): No lo completé
-Examen parcial 1: 4.8 (0.15)
-Examen parcial 2: 5.0 (0.15)
-Examen parcial 3: 4.6 (0.2)
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo	nota	ponderación]
+
+Quiz 1	5.0	0.01
+Quiz 2	5.0	0.01
+Quiz 3	5.0	0.01
+Quiz 4	5.0	0.01
+Quiz 5	5.0	0.01
+Proyecto 1 Entrega 1	5.0	0.05
+Proyecto 1: Infomercial	5.0	0.05
+Proyecto 2: Karaoke	5.0	0.05
+Plataforma corte 1	5.0	0.05
+Plataforma corte 2	4.8	0.05
+Plataforma corte 3	5.0	0.05
+Participación y asistencia 1	5.0	0.05
+Participación y asistencia 2	5.0	0.05
+Frankenstein 1	5.0	0.03
+Frankenstein 2	5.0	0.03
+Übungsbuch (Bono nota tests)	No lo completé
+Bloque Neón (V) (Bono nota de trabajo en plataforma)	5 insignias
+Oraciones de las camisetas o los fondos (Bono nota cartilla)	No lo completé
+Quizlet (Bono nota participación)	No lo completé
+Examen parcial 1	4.8	0.15
+Examen parcial 2	5.0	0.15
+Examen parcial 3	4.6	0.2

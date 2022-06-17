@@ -15,19 +15,20 @@ Nota final sin aproximaciones ni bonos:
 Bonos:
 Política de aproximación:
 Nota final: 4.67
-----------------------------------Asignaciones---------------------------------
-[Nombre del trabajo: nota (ponderación)]
 
-Laboratorio FISI 1029, 04: Física Experimental 2: 4.62 (0.2)
-Complementaria FISI 1528, 26: Física 2: 5.0 (0.2)
-Quiz de opción múltiple semana 2: 3.75 (0.03333333333333333)
-Quiz de opción múltiple semana 3: 5.0 (0.03333333333333333)
-Quiz de opción múltiple semana 6: 5.0 (0.03333333333333333)
-Examen parcial 1 (asincrónico): 5.0 (0.05)
-Quiz de opción múltiple semana 7: 5.0 (0.03333333333333333)
-Quiz de opción múltiple semana 10: 5.0 (0.03333333333333333)
-Examen parcial 2 (sincrónico): 3.85 (0.05)
-Quiz de opción múltiple semana 11: 5.0 (0.03333333333333333)
-Examen parcial 3 (asincrónico): 4.9 (0.05)
-Examen parcial 4 (asincrónico): 5.0 (0.05)
-Examen final: 4.25 (0.2)
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo	nota	ponderación]
+
+Laboratorio FISI 1029, 04: Física Experimental 2	4.62	0.2
+Complementaria FISI 1528, 26: Física 2	5.0	0.2
+Quiz de opción múltiple semana 2	3.75	0.03333333333333333
+Quiz de opción múltiple semana 3	5.0	0.03333333333333333
+Quiz de opción múltiple semana 6	5.0	0.03333333333333333
+Examen parcial 1 (asincrónico)	5.0	0.05
+Quiz de opción múltiple semana 7	5.0	0.03333333333333333
+Quiz de opción múltiple semana 10	5.0	0.03333333333333333
+Examen parcial 2 (sincrónico)	3.85	0.05
+Quiz de opción múltiple semana 11	5.0	0.03333333333333333
+Examen parcial 3 (asincrónico)	4.9	0.05
+Examen parcial 4 (asincrónico)	5.0	0.05
+Examen final	4.25	0.2

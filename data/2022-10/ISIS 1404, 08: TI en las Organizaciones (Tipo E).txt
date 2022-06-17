@@ -15,27 +15,28 @@ Nota final sin aproximaciones ni bonos:
 Bonos:
 Política de aproximación:
 Nota final: 4.81
-----------------------------------Asignaciones---------------------------------
-[Nombre del trabajo: nota (ponderación)]
 
-Examen Parcial 1 : 4.1 (0.1)
-Examen Parcial 2: 4.89 (0.14)
-Examen Parcial 3: 4.4 (0.1)
-Ejercicio 1: Fuerzas de Porter: 5.0 (0.0033333333333333335)
-Ejercicio BMM: 5.0 (0.0033333333333333335)
-Ejercicio Canvas: 5.0 (0.0033333333333333335)
-Ejercicio Cadena de Valor Uniandes: 5.0 (0.0033333333333333335)
-Taller de oralidad: 5.0 (0.0033333333333333335)
-Quiz de asistencia: 5.0 (0.0033333333333333335)
-Escenario 1: BPMN: 5.0 (0.02)
-Escenario 2: BPMN: 5.0 (0.02)
-Escenario 3: SAP: 5.0 (0.02)
-Escenario 4: Power BI: 5.0 (0.02)
-Proyecto - P1 Grupal: 4.87 (0.09)
-Proyecto - P0 Ejercicio comparación CO : 5.0 (0.03)
-Proyecto - P1 Individual - Plan de texto: 4.65 (0.03)
-Proyecto - P1 Individual - Versión inicial: 4.68 (0.05)
-Proyecto - P1 Individual - Versión final: 5.0 (0.1)
-Proyecto - P2 Grupal: 4.85 (0.09)
-Proyecto - P2 Individual - Bibliografía comentada: 4.46 (0.05)
-Proyecto - P2 Individual - Versión final: 5.0 (0.12)
+----------------------------------Asignaciones---------------------------------
+[Nombre del trabajo	nota	ponderación]
+
+Examen Parcial 1 	4.1	0.1
+Examen Parcial 2	4.89	0.14
+Examen Parcial 3	4.4	0.1
+Ejercicio 1: Fuerzas de Porter	5.0	0.0033333333333333335
+Ejercicio BMM	5.0	0.0033333333333333335
+Ejercicio Canvas	5.0	0.0033333333333333335
+Ejercicio Cadena de Valor Uniandes	5.0	0.0033333333333333335
+Taller de oralidad	5.0	0.0033333333333333335
+Quiz de asistencia	5.0	0.0033333333333333335
+Escenario 1: BPMN	5.0	0.02
+Escenario 2: BPMN	5.0	0.02
+Escenario 3: SAP	5.0	0.02
+Escenario 4: Power BI	5.0	0.02
+Proyecto - P1 Grupal	4.87	0.09
+Proyecto - P0 Ejercicio comparación CO 	5.0	0.03
+Proyecto - P1 Individual - Plan de texto	4.65	0.03
+Proyecto - P1 Individual - Versión inicial	4.68	0.05
+Proyecto - P1 Individual - Versión final	5.0	0.1
+Proyecto - P2 Grupal	4.85	0.09
+Proyecto - P2 Individual - Bibliografía comentada	4.46	0.05
+Proyecto - P2 Individual - Versión final	5.0	0.12
