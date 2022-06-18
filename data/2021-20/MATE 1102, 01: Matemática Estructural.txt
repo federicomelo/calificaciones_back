@@ -11,9 +11,10 @@ Sección: 01
 
 ---------------------------------Calificaciones--------------------------------
 
-Nota final sin aproximaciones ni bonos: 
-Bonos:
-Política de aproximación:
+Nota final sin aproximaciones ni bonos: 4.97
+Bono en la nota final: 0.0
+Motivo bono: 
+Política de aproximación: Aproximación al primer decimal.
 Nota final: 5.0
 
 ----------------------------------Asignaciones---------------------------------

@@ -11,9 +11,10 @@ Sección: 16
 
 ---------------------------------Calificaciones--------------------------------
 
-Nota final sin aproximaciones ni bonos: 
-Bonos:
-Política de aproximación:
+Nota final sin aproximaciones ni bonos: 4.67
+Bono en la nota final: 0.27
+Motivo bono: Total de bonos por participaciones significativas en clase
+Política de aproximación: La materia no cuenta con política de aproximación. Se aproxima a la centésima.
 Nota final: 5.0
 
 ----------------------------------Asignaciones---------------------------------

@@ -11,9 +11,10 @@ Sección: 08
 
 ---------------------------------Calificaciones--------------------------------
 
-Nota final sin aproximaciones ni bonos: 
-Bonos:
-Política de aproximación:
+Nota final sin aproximaciones ni bonos: 4.76
+Bono en la nota final: 0.05
+Motivo bono: 0.5 puntos en el peor parcial (Parcial 1, 10%) por ser el estudiante con más puntos extra (21)
+Política de aproximación: La materia no cuenta con política de aproximación. Se aproxima a la centésima.
 Nota final: 4.81
 
 ----------------------------------Asignaciones---------------------------------

@@ -11,9 +11,10 @@ Sección: 35
 
 ---------------------------------Calificaciones--------------------------------
 
-Nota final sin aproximaciones ni bonos: 
-Bonos:
-Política de aproximación:
+Nota final sin aproximaciones ni bonos: 4.61
+Bono en la nota final: 0.0
+Motivo bono: 
+Política de aproximación: La materia no cuenta con política de aproximación. Se aproxima a la centésima.
 Nota final: 4.61
 
 ----------------------------------Asignaciones---------------------------------

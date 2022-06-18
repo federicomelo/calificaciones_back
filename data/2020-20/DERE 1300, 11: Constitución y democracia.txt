@@ -11,9 +11,10 @@ Sección: 11
 
 ---------------------------------Calificaciones--------------------------------
 
-Nota final sin aproximaciones ni bonos: 
-Bonos:
-Política de aproximación:
+Nota final sin aproximaciones ni bonos: 4.8
+Bono en la nota final: 0.2
+Motivo bono: Ser declarado el mejor video de Experiencia de autonomía personal tras votación democrática del curso
+Política de aproximación: La materia no cuenta con política de aproximación. Se aproxima a la centésima.
 Nota final: 5.0
 
 ----------------------------------Asignaciones---------------------------------

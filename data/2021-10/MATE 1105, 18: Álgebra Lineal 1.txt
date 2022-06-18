@@ -11,9 +11,10 @@ Sección: 18
 
 ---------------------------------Calificaciones--------------------------------
 
-Nota final sin aproximaciones ni bonos: 
-Bonos:
-Política de aproximación:
+Nota final sin aproximaciones ni bonos: 4.92
+Bono en la nota final: 0.0
+Motivo bono: 
+Política de aproximación: Aproximación a la media unidad más cercana.
 Nota final: 5.0
 
 ----------------------------------Asignaciones---------------------------------

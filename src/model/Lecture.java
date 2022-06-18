@@ -20,18 +20,30 @@ public class Lecture extends Course {
 
 	
 	public Lecture(String name, String departmentCode, String subjectCode, String section, int credits, String[] professors, Semester semester) {
+		constructLecture(name, departmentCode, subjectCode, section, credits, professors, semester);
+	}
+	
+	
+	public Lecture(String name, String departmentCode, String subjectCode, String section, int credits, String[] professors, Semester semester, GradeRoundingPolicy gradeRoundingPolicy) {
+		constructLecture(name, departmentCode, subjectCode, section, credits, professors, semester);
+		this.gradeRoundingPolicy = gradeRoundingPolicy; 
+	}
+	
+	
+	public void constructLecture(String name, String departmentCode, String subjectCode, String section, int credits, String[] professors, Semester semester) {
 		this.name = name;
+		this.code = subjectCode;
+		this.section = section;
+		this.credits = credits;
+		this.professors = professors;
+		this.semester = semester;
+		
 		try {
 			this.department = new Department(departmentCode);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 			e.printStackTrace();
 		}
-		this.code = subjectCode;
-		this.section = section;
-		this.credits = credits;
-		this.professors = professors;
-		this.semester = semester;
 	}
 	
 
@@ -73,13 +85,20 @@ public class Lecture extends Course {
 			PrintWriter printWriter = new PrintWriter(fileWriter);	
 			
 			String titulo = this.getFormatedName();
+			
 			String nombre = this.getName();
 			String profesores = String.join(", ", this.getProfessors());
 			String semestre = this.getSemester().getYearAndPeriod();
 			String departamento = this.getDepartment().getName()+" ("+this.getDepartment().getCode()+")";
 			String codigo = this.getCode();
 			String seccion = this.getSection();
+			
+			String preNotaFinal = String.valueOf(this.getPreFinalGrade());
+			String bono = String.valueOf(this.getExtraPoints());
+			String motivo = this.getMotiveExtraPoints();
+			String politicaAprox = this.getGradeRoundingPolicy().getName();
 			String notaFinal = String.valueOf(this.getFinalGrade());
+			
 			String trabajos = "";
 			for (Assignment assignment: assignments) {
 				trabajos += assignment.writeAssignment();
@@ -94,14 +113,15 @@ public class Lecture extends Course {
 							 + "Código: %s\n"
 							 + "Sección: %s\n\n"
 							 + "---------------------------------Calificaciones--------------------------------\n\n"
-							 + "Nota final sin aproximaciones ni bonos: \n"
-							 + "Bonos:\n"
-							 + "Política de aproximación:\n"
+							 + "Nota final sin aproximaciones ni bonos: %s\n"
+							 + "Bono en la nota final: %s\n"
+							 + "Motivo bono: %s\n"
+							 + "Política de aproximación: %s\n"
 							 + "Nota final: %s\n\n"
 							 + "----------------------------------Asignaciones---------------------------------\n"
 							 + "[Nombre del trabajo	nota	ponderación]\n\n%s",
-							   titulo, nombre, profesores, semestre, departamento, codigo, seccion, notaFinal, 
-							   trabajos);
+							   titulo, nombre, profesores, semestre, departamento, codigo, seccion, preNotaFinal, 
+							   bono, motivo, politicaAprox, notaFinal, trabajos);
 			printWriter.close();
 			
 		} catch (IOException e) {
@@ -163,6 +183,11 @@ public class Lecture extends Course {
 
 	public Semester getSemester() {
 		return semester;
+	}
+
+
+	public GradeRoundingPolicy getGradeRoundingPolicy() {
+		return gradeRoundingPolicy;
 	}
 
 

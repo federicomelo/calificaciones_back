@@ -5,9 +5,10 @@ import java.util.ArrayList;
 public abstract class Course {
 	
 	protected double finalGrade;
+	protected double preFinalGrade;
 	protected double completionPercentage;
 	protected double extraPoints;
-	protected String motiveExtraPoints;
+	protected String motiveExtraPoints = "";
 	protected GradeRoundingPolicy gradeRoundingPolicy = new GradeRoundingPolicy();
 	protected ArrayList<Assignment> assignments = new ArrayList<Assignment>();
 
@@ -42,7 +43,7 @@ public abstract class Course {
 		}
 	}
 	
-	
+	   
 	private double evaluateDivisionFromString(String string) throws Exception {
 		if (string.contains("/")) {
 			int operator = string.indexOf("/");
@@ -68,6 +69,8 @@ public abstract class Course {
 			finalGrade += GradeRoundingPolicy.roundToHundredth(assignment.getGrade())*assignment.getValue();
 			completionPercentage += assignment.getValue();
 		}
+		this.preFinalGrade = GradeRoundingPolicy.roundToHundredth(finalGrade/completionPercentage);
+		
 		finalGrade += this.extraPoints;
 		try {
 			this.finalGrade = gradeRoundingPolicy.round(finalGrade/completionPercentage);
@@ -81,6 +84,12 @@ public abstract class Course {
 	public double getFinalGrade() {
 		computeFinalGrade();
 		return finalGrade;
+	}
+	
+	
+	public double getPreFinalGrade() {
+		computeFinalGrade();
+		return preFinalGrade;
 	}
 
 	
@@ -103,6 +112,11 @@ public abstract class Course {
 
 	public String getMotiveExtraPoints() {
 		return motiveExtraPoints;
+	}
+	
+	
+	public double getExtraPoints() {
+		return extraPoints;
 	}
 	
 	
