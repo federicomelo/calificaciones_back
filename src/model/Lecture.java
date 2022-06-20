@@ -133,7 +133,7 @@ public class Lecture extends Course {
 	
 	public File locateFile() {
 		File semesterPath = getSemester().locateDirectory();
-		File path = new File(semesterPath.getAbsolutePath()+File.separator+this.getFormatedName()+".txt");
+		File path = new File(semesterPath.getAbsolutePath()+File.separator+this.getFormatedCode()+".txt");
 		return path;
 	}
 	
@@ -141,6 +141,12 @@ public class Lecture extends Course {
 	
 	public String getFormatedName() {
 		String formatedName = department.getCode() + " " + code + ", " + String.valueOf(section) + ": " + name;
+		return formatedName;
+	}
+
+
+	public String getFormatedCode() {
+		String formatedName = department.getCode() + "-" + code;
 		return formatedName;
 	}
 
