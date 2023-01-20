@@ -1,0 +1,1173 @@
+{
+    "name": "Cuarto semestre",
+    "number": 4,
+    "year": 2022,
+    "period": 10,
+    "subjects": [
+        {
+            "fullname": "CBPC 1174, 1: Química, Leyes y Conceptos (Ciclo 1 de 8 semanas)",
+            "name": "Química, Leyes y Conceptos (Ciclo 1 de 8 semanas)",
+            "code": "CBPC 1174",
+            "section": 1,
+            "nickname": "CBU Química",
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Entrega 1: ¿Qué materia prima usaron los dioses para crear las cosas que hay en el mundo?",
+                    "grade": 5.0,
+                    "percentage": 0.05,
+                    "comments": ""
+                },
+                {
+                    "name": "Entrega 2: ¿Cuál es la diferencia entre un alquimista y un químico?",
+                    "grade": 5.0,
+                    "percentage": 0.06,
+                    "comments": ""
+                },
+                {
+                    "name": "Evaluación Parcial 1",
+                    "grade": 4.58,
+                    "percentage": 0.12,
+                    "comments": ""
+                },
+                {
+                    "name": "Entrega 3: ¿Existe un elemento con el cual se pueden construir todas las cosas existentes?",
+                    "grade": 5.0,
+                    "percentage": 0.07,
+                    "comments": ""
+                },
+                {
+                    "name": "Evaluación Parcial 2",
+                    "grade": 5.0,
+                    "percentage": 0.12,
+                    "comments": ""
+                },
+                {
+                    "name": "Entrega 4: Repensando: ¿Cuál es la diferencia entre un alquimista y un químico?",
+                    "grade": 5.0,
+                    "percentage": 0.08,
+                    "comments": ""
+                },
+                {
+                    "name": "Entrega 5: ¿Qué se necesitó para que la Química se convirtiera en ciencia?",
+                    "grade": 5.0,
+                    "percentage": 0.08,
+                    "comments": ""
+                },
+                {
+                    "name": "Evaluación Parcial 3",
+                    "grade": 4.58,
+                    "percentage": 0.12,
+                    "comments": ""
+                },
+                {
+                    "name": "Actividad 1, quiz: Videos semana 1",
+                    "grade": 5.0,
+                    "percentage": 0.0286,
+                    "comments": ""
+                },
+                {
+                    "name": "Actividad 2, quiz: Videos semana 2",
+                    "grade": 4.0,
+                    "percentage": 0.0286,
+                    "comments": ""
+                },
+                {
+                    "name": "Actividad 3: Control de lectura",
+                    "grade": 5.0,
+                    "percentage": 0.0286,
+                    "comments": ""
+                },
+                {
+                    "name": "Actividad 4, quiz: Video alquimia",
+                    "grade": 5.0,
+                    "percentage": 0.0286,
+                    "comments": ""
+                },
+                {
+                    "name": "Actividad 5, quiz: Videos oxígeno y pila voltaica",
+                    "grade": 4.0,
+                    "percentage": 0.0286,
+                    "comments": ""
+                },
+                {
+                    "name": "Actividad 6, 8 pares de isómeros de glucosa ",
+                    "grade": 5.0,
+                    "percentage": 0.0286,
+                    "comments": ""
+                },
+                {
+                    "name": "Actividad 7, 3 volumenes de hidrógeno y uno de nitrgógeno dan 2 de amoniaco ",
+                    "grade": 5.0,
+                    "percentage": 0.0286,
+                    "comments": ""
+                },
+                {
+                    "name": "Evaluación corta 1: El bronce es aleación de cobre y estaño",
+                    "grade": 5.0,
+                    "percentage": 0.02,
+                    "comments": ""
+                },
+                {
+                    "name": "Evaluación corta 2: Valor de pi para egipcios y Washington Irving",
+                    "grade": 5.0,
+                    "percentage": 0.02,
+                    "comments": ""
+                },
+                {
+                    "name": "Evaluación corta 3: Gas pingüe y significado de \"flogisto\"",
+                    "grade": 5.0,
+                    "percentage": 0.02,
+                    "comments": ""
+                },
+                {
+                    "name": "Evaluación corta 4: Aire desflogisticado (oxígeno) ",
+                    "grade": 5.0,
+                    "percentage": 0.02,
+                    "comments": ""
+                },
+                {
+                    "name": "Evaluación corta 5: Estados de oxidación y Ley de Avogadro",
+                    "grade": 5.0,
+                    "percentage": 0.02,
+                    "comments": ""
+                },
+                {
+                    "name": "Bono sobre nota final por realización de quizzes",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "0.70"
+                }
+            ],
+            "calculated_grade": 4.842999999999997,
+            "final_grade": 4.84,
+            "credits": 3
+        },
+        {
+            "fullname": "CBPC 1176, 1: Introducción al Pensamiento Computacional (Ciclo 1 de 8 semanas)",
+            "name": "Introducción al Pensamiento Computacional (Ciclo 1 de 8 semanas)",
+            "code": "CBPC 1176",
+            "section": 1,
+            "nickname": "",
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Bono 0.3: Video corto de presentación personal",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "Realizado0.00%0.00"
+                },
+                {
+                    "name": "Bono 0.3: Verdadero o falso sobre presentación personal",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "Realizado0.00%0.00"
+                },
+                {
+                    "name": "Escrito inicial",
+                    "grade": 4.8,
+                    "percentage": 0.15,
+                    "comments": ""
+                },
+                {
+                    "name": "CL1: Hansel y Gretel",
+                    "grade": 4.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Bono 0.3: Describir en formulario un algoritmo que utilice en su vida diaria",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "Realizado0.00%0.00"
+                },
+                {
+                    "name": "CL2: Estructuras de Datos",
+                    "grade": 4.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Bono: Usos de las Estructuras de Datos",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "Realizado0.00%0.00"
+                },
+                {
+                    "name": "CL3: Ordenamiento",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Bono: Ordenamientos en la vida cotidiana",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "Realizado0.00%0.00"
+                },
+                {
+                    "name": "CL4: Estructuras de Control",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "CL5: Recursión",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Bono IPC: Usos de la Recursión",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "Realizado0.00%0.00"
+                },
+                {
+                    "name": "CL6: Abstracción",
+                    "grade": 4.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Bono IPC: Abstracción en vida cotidiana",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "Realizado0.00%0.00"
+                },
+                {
+                    "name": "CL7: Lenguajes",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Bono IPC: Lenguajes cotidianos similares a lenguajes de programación",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "Realizado0.00%0.00"
+                },
+                {
+                    "name": "CLE1: Algorithmic Inequity",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "CLE2: Pensamiento Deductivo (P)",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "CLE3: Pensamiento Inductivo (P)",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "CLE4: Seguridad en automóviles y máquinas",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "CLE5: The Recursive Universe",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "CLE6: Meritocracia",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "CLE7: Select One",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio individual 1",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio individual 2",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio individual 3",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio individual 4",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio individual 5",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio individual 6",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio individual 7",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Trabajo de aplicación 1",
+                    "grade": 5.0,
+                    "percentage": 0.021400000000000002,
+                    "comments": ""
+                },
+                {
+                    "name": "Trabajo de aplicación 2",
+                    "grade": 5.0,
+                    "percentage": 0.021400000000000002,
+                    "comments": ""
+                },
+                {
+                    "name": "Trabajo de aplicación 3",
+                    "grade": 5.0,
+                    "percentage": 0.021400000000000002,
+                    "comments": ""
+                },
+                {
+                    "name": "Trabajo de aplicación 4",
+                    "grade": 5.0,
+                    "percentage": 0.021400000000000002,
+                    "comments": ""
+                },
+                {
+                    "name": "Trabajo de aplicación 5",
+                    "grade": 5.0,
+                    "percentage": 0.021400000000000002,
+                    "comments": ""
+                },
+                {
+                    "name": "Trabajo de aplicación 6",
+                    "grade": 5.0,
+                    "percentage": 0.021400000000000002,
+                    "comments": ""
+                },
+                {
+                    "name": "Trabajo de aplicación 7",
+                    "grade": 5.0,
+                    "percentage": 0.021400000000000002,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio grupal 1",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio grupal 2",
+                    "grade": 4.5,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio grupal 3",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio grupal 4",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio grupal 5",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio grupal 6",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio grupal 7",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ética individual 1",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ética individual 2",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ética individual 3",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ética individual 4",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ética individual 5",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ética individual 6",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ética individual 7",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ética grupal 1",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ética grupal 2",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ética grupal 3",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ética grupal 4",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ética grupal 5",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ética grupal 6",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Ética grupal 7",
+                    "grade": 5.0,
+                    "percentage": 0.010700000000000001,
+                    "comments": ""
+                },
+                {
+                    "name": "Video del Ensayo Final",
+                    "grade": 1.0,
+                    "percentage": 0.0,
+                    "comments": ""
+                },
+                {
+                    "name": "Ensayo final",
+                    "grade": 5.0,
+                    "percentage": 0.25,
+                    "comments": ""
+                },
+                {
+                    "name": "Coteo de bonos 7/7",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "1.00"
+                }
+            ],
+            "calculated_grade": 4.928550000000005,
+            "final_grade": 4.93,
+            "credits": 3
+        },
+        {
+            "fullname": "ISIS 1226, 3: Diseño y Programación Orientada a Objetos",
+            "name": "Diseño y Programación Orientada a Objetos",
+            "code": "ISIS 1226",
+            "section": 3,
+            "nickname": "",
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Taller 0: Introducción a Java",
+                    "grade": 5.0,
+                    "percentage": 0.01,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller 1: Programación Orientada a Objetos en Java",
+                    "grade": 3.5,
+                    "percentage": 0.02,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller 2: Análisis",
+                    "grade": 3.9,
+                    "percentage": 0.02,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto 1, entrega 1 de 3: Análisis",
+                    "grade": 4.25,
+                    "percentage": 0.04,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller 3: Roles, responsabilidades y colaboraciones ",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "No se hizo0.00%0.00%0.00"
+                },
+                {
+                    "name": "Proyecto 1, entrega 2 de 3: Diseño",
+                    "grade": 4.65,
+                    "percentage": 0.04,
+                    "comments": ""
+                },
+                {
+                    "name": "Examen parcial 1",
+                    "grade": 4.8,
+                    "percentage": 0.24,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto 1, entrega 3 de 3: Diseño final e implementación",
+                    "grade": 4.7,
+                    "percentage": 0.04,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto 2, entrega 1 de 2: Boceto",
+                    "grade": 5.0,
+                    "percentage": 0.02,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller 4: GUIs. Triqui! Mi primer videojuego.",
+                    "grade": 5.0,
+                    "percentage": 0.01,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto 2, entrega 2 de 2: Diseño e implementación",
+                    "grade": 5.0,
+                    "percentage": 0.1,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller 5: Patrones",
+                    "grade": 5.0,
+                    "percentage": 0.02,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller 6: Errores y Excepciones",
+                    "grade": 4.75,
+                    "percentage": 0.04,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto 3, entrega 1 de 2: Diseño",
+                    "grade": 4.8,
+                    "percentage": 0.06,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller 7: Implementación de Pruebas unitarias",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "No se hizo0.00%0.00%0.00"
+                },
+                {
+                    "name": "Examen parcial 2",
+                    "grade": 4.9,
+                    "percentage": 0.24,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto 3, entrega 2 de 2: Implementación",
+                    "grade": 5.0,
+                    "percentage": 0.1,
+                    "comments": ""
+                }
+            ],
+            "calculated_grade": 4.798,
+            "final_grade": 4.8,
+            "credits": 3
+        },
+        {
+            "fullname": "ISIS 1304, 3: Infraestructura Tecnológica",
+            "name": "Infraestructura Tecnológica",
+            "code": "ISIS 1304",
+            "section": 3,
+            "nickname": "",
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Parcial 1",
+                    "grade": 5.0,
+                    "percentage": 0.325,
+                    "comments": ""
+                },
+                {
+                    "name": "Parcial 2",
+                    "grade": 4.93,
+                    "percentage": 0.325,
+                    "comments": ""
+                },
+                {
+                    "name": "Preevaluación 1",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "5.00100.00%-%0.00"
+                },
+                {
+                    "name": "Preevaluación 2",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "5.00100.00%-%0.00"
+                },
+                {
+                    "name": "Preevaluación 3: Traducción a Assembler: Control",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "4.3386.60%-%0.00"
+                },
+                {
+                    "name": "Trabajo práctico 1",
+                    "grade": 4.7,
+                    "percentage": 0.05,
+                    "comments": ""
+                },
+                {
+                    "name": "Trabajo práctico 2",
+                    "grade": 4.85,
+                    "percentage": 0.05,
+                    "comments": ""
+                },
+                {
+                    "name": "Trabajo práctico 3",
+                    "grade": 5.0,
+                    "percentage": 0.05,
+                    "comments": ""
+                },
+                {
+                    "name": "Trabajo práctico 4",
+                    "grade": 5.0,
+                    "percentage": 0.05,
+                    "comments": ""
+                },
+                {
+                    "name": "Trabajo práctico 5",
+                    "grade": 5.0,
+                    "percentage": 0.1,
+                    "comments": ""
+                },
+                {
+                    "name": "Puntos",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "11.00-%0.00"
+                },
+                {
+                    "name": "Participación en clase 1 (32 puntos)",
+                    "grade": 5.0,
+                    "percentage": 0.025,
+                    "comments": ""
+                },
+                {
+                    "name": "Bono participación en clase 1",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "0.125"
+                },
+                {
+                    "name": "Participación en clase 2",
+                    "grade": 5.0,
+                    "percentage": 0.025,
+                    "comments": ""
+                },
+                {
+                    "name": "Bono participación en clase 2",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "0.125"
+                }
+            ],
+            "calculated_grade": 4.95475,
+            "final_grade": 4.95,
+            "credits": 3
+        },
+        {
+            "fullname": "ISIS 1404, 8: TI en las Organizaciones (Tipo E)",
+            "name": "TI en las Organizaciones (Tipo E)",
+            "code": "ISIS 1404",
+            "section": 8,
+            "nickname": "",
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Examen Parcial 1 ",
+                    "grade": 4.1,
+                    "percentage": 0.0,
+                    "comments": ""
+                },
+                {
+                    "name": "Examen Parcial 2",
+                    "grade": 4.89,
+                    "percentage": 0.14,
+                    "comments": ""
+                },
+                {
+                    "name": "Examen Parcial 3",
+                    "grade": 4.4,
+                    "percentage": 0.1,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio 1: Fuerzas de Porter",
+                    "grade": 5.0,
+                    "percentage": 0.0033,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio BMM",
+                    "grade": 5.0,
+                    "percentage": 0.0033,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio Canvas",
+                    "grade": 5.0,
+                    "percentage": 0.0033,
+                    "comments": ""
+                },
+                {
+                    "name": "Ejercicio Cadena de Valor Uniandes",
+                    "grade": 5.0,
+                    "percentage": 0.0033,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller de oralidad",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "Entregado0.00%0.00%0.00"
+                },
+                {
+                    "name": "Quiz en clase",
+                    "grade": 5.0,
+                    "percentage": 0.0033,
+                    "comments": ""
+                },
+                {
+                    "name": "Quiz de asistencia",
+                    "grade": 5.0,
+                    "percentage": 0.0033,
+                    "comments": ""
+                },
+                {
+                    "name": "Escenario 1",
+                    "grade": 5.0,
+                    "percentage": 0.02,
+                    "comments": ""
+                },
+                {
+                    "name": "Escenario 2",
+                    "grade": 5.0,
+                    "percentage": 0.02,
+                    "comments": ""
+                },
+                {
+                    "name": "Escenario 3: SAP",
+                    "grade": 5.0,
+                    "percentage": 0.02,
+                    "comments": ""
+                },
+                {
+                    "name": "Escenario 4: Power BI",
+                    "grade": 5.0,
+                    "percentage": 0.02,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto - P1 Grupal",
+                    "grade": 4.87,
+                    "percentage": 0.09,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto - P0 Ejercicio comparación CO ",
+                    "grade": 5.0,
+                    "percentage": 0.03,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto - P1 Individual - Plan de texto",
+                    "grade": 4.65,
+                    "percentage": 0.03,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto - P1 Individual - Versión inicial",
+                    "grade": 4.68,
+                    "percentage": 0.05,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto - P1 Individual - Versión final",
+                    "grade": 5.0,
+                    "percentage": 0.1,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto - P2 Grupal",
+                    "grade": 4.85,
+                    "percentage": 0.09,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto - P2 Individual - Bibliografía comentada",
+                    "grade": 4.46,
+                    "percentage": 0.05,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto - P2 Individual - Versión final",
+                    "grade": 5.0,
+                    "percentage": 0.12,
+                    "comments": ""
+                },
+                {
+                    "name": "0.5 puntos en Parcial 1 por ser estudiante con más bonos (21)",
+                    "grade": 4.6,
+                    "percentage": 0.1,
+                    "comments": ""
+                }
+            ],
+            "calculated_grade": 4.8049,
+            "final_grade": 4.8,
+            "credits": 3
+        },
+        {
+            "fullname": "LENG 1302, 2: Alemán 2",
+            "name": "Alemán 2",
+            "code": "LENG 1302",
+            "section": 2,
+            "nickname": "",
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Quiz 1",
+                    "grade": 5.0,
+                    "percentage": 0.01,
+                    "comments": ""
+                },
+                {
+                    "name": "Quiz 2",
+                    "grade": 5.0,
+                    "percentage": 0.01,
+                    "comments": ""
+                },
+                {
+                    "name": "Quiz 3",
+                    "grade": 5.0,
+                    "percentage": 0.01,
+                    "comments": ""
+                },
+                {
+                    "name": "Quiz 4",
+                    "grade": 5.0,
+                    "percentage": 0.01,
+                    "comments": ""
+                },
+                {
+                    "name": "Quiz 5",
+                    "grade": 5.0,
+                    "percentage": 0.01,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto 1 Entrega 1",
+                    "grade": 5.0,
+                    "percentage": 0.05,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto 1: Infomercial",
+                    "grade": 5.0,
+                    "percentage": 0.05,
+                    "comments": ""
+                },
+                {
+                    "name": "Proyecto 2: Karaoke",
+                    "grade": 5.0,
+                    "percentage": 0.05,
+                    "comments": ""
+                },
+                {
+                    "name": "Plataforma corte 1",
+                    "grade": 5.0,
+                    "percentage": 0.05,
+                    "comments": ""
+                },
+                {
+                    "name": "Plataforma corte 2",
+                    "grade": 4.8,
+                    "percentage": 0.05,
+                    "comments": ""
+                },
+                {
+                    "name": "Plataforma corte 3",
+                    "grade": 5.0,
+                    "percentage": 0.05,
+                    "comments": ""
+                },
+                {
+                    "name": "Participación y asistencia 1",
+                    "grade": 5.0,
+                    "percentage": 0.05,
+                    "comments": ""
+                },
+                {
+                    "name": "Participación y asistencia 2",
+                    "grade": 5.0,
+                    "percentage": 0.05,
+                    "comments": ""
+                },
+                {
+                    "name": "Frankenstein 1",
+                    "grade": 5.0,
+                    "percentage": 0.025,
+                    "comments": ""
+                },
+                {
+                    "name": "Frankenstein 2",
+                    "grade": 5.0,
+                    "percentage": 0.025,
+                    "comments": ""
+                },
+                {
+                    "name": "Übungsbuch (Bono nota tests)",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "No lo completé0.00%0.00"
+                },
+                {
+                    "name": "Bloque Neón (V) (Bono nota de trabajo en plataforma)",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "5 insignias0.00%0.00"
+                },
+                {
+                    "name": "Oraciones de las camisetas o los fondos (Bono nota cartilla)",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "No lo completé0.00%0.00"
+                },
+                {
+                    "name": "Quizlet (Bono nota participación)",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "No lo completé0.00%0.00"
+                },
+                {
+                    "name": "Examen parcial 1",
+                    "grade": 4.8,
+                    "percentage": 0.15,
+                    "comments": ""
+                },
+                {
+                    "name": "Examen parcial 2",
+                    "grade": 5.0,
+                    "percentage": 0.15,
+                    "comments": ""
+                },
+                {
+                    "name": "Examen parcial 3",
+                    "grade": 4.6,
+                    "percentage": 0.2,
+                    "comments": ""
+                }
+            ],
+            "calculated_grade": 4.88,
+            "final_grade": 4.88,
+            "credits": 3
+        },
+        {
+            "fullname": "MATE 1207, 20: Cálculo Vectorial",
+            "name": "Cálculo Vectorial",
+            "code": "MATE 1207",
+            "section": 20,
+            "nickname": "",
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Complementaria MATE 1207, 20: Cálculo Vectorial",
+                    "grade": 5.0,
+                    "percentage": 0.25,
+                    "comments": ""
+                },
+                {
+                    "name": "Parcial 1: Derivación",
+                    "grade": 4.67,
+                    "percentage": 0.0,
+                    "comments": ""
+                },
+                {
+                    "name": "Parcial 2: Integración",
+                    "grade": 5.0,
+                    "percentage": 0.25,
+                    "comments": ""
+                },
+                {
+                    "name": "Justificación del parcial 2: Bono de 1 punto en el parcial 1 (porque saqué 5 en el 2)",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "Bono Completo"
+                },
+                {
+                    "name": "Parcial 1 con bono",
+                    "grade": 5.0,
+                    "percentage": 0.25,
+                    "comments": ""
+                },
+                {
+                    "name": "Examen Final",
+                    "grade": 5.0,
+                    "percentage": 0.25,
+                    "comments": ""
+                },
+                {
+                    "name": "",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": ""
+                },
+                {
+                    "name": "MATE 1207, 20: Cálculo Vectorial ",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "CalificaciónValor"
+                },
+                {
+                    "name": "",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "NotaPorcentualPorcentualCréditos"
+                },
+                {
+                    "name": "Taller 1 Parte 1",
+                    "grade": 5.0,
+                    "percentage": 0.1,
+                    "comments": ""
+                },
+                {
+                    "name": "Bono complementaria N. 4 (3 de febrero)",
+                    "grade": 0,
+                    "percentage": 0,
+                    "comments": "Ganado0.00"
+                },
+                {
+                    "name": "Taller 1 Parte 2",
+                    "grade": 5.0,
+                    "percentage": 0.1,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller 1 Parte 3",
+                    "grade": 5.0,
+                    "percentage": 0.1,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller 2 Parte 1",
+                    "grade": 5.0,
+                    "percentage": 0.1,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller 3 Parte 1",
+                    "grade": 5.0,
+                    "percentage": 0.1,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller 3 Parte 2",
+                    "grade": 5.0,
+                    "percentage": 0.1,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller Parte 4",
+                    "grade": 5.0,
+                    "percentage": 0.1,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller 4 Parte 1",
+                    "grade": 5.0,
+                    "percentage": 0.1,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller 4 Parte 2",
+                    "grade": 5.0,
+                    "percentage": 0.1,
+                    "comments": ""
+                },
+                {
+                    "name": "Taller 4 Parte 3",
+                    "grade": 5.0,
+                    "percentage": 0.1,
+                    "comments": ""
+                }
+            ],
+            "calculated_grade": 10.0,
+            "final_grade": 10.0,
+            "credits": 3
+        }
+    ]
+}

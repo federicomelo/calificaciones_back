@@ -1,0 +1,367 @@
+{
+    "name": "Segundo semestre",
+    "number": 2,
+    "year": 2021,
+    "period": 10,
+    "subjects": [
+        {
+            "fullname": "CBCC 1177, 18: Colombia: Espacio, Tiempo y Diferencia (Ciclo 1 de 8 semanas) (CBU Colombia)",
+            "name": "Colombia: Espacio, Tiempo y Diferencia (Ciclo 1 de 8 semanas)",
+            "code": "CBCC 1177",
+            "section": 18,
+            "nickname": "CBU Colombia",
+            "credits": 3,
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Cumplimiento de la entrega no calificable 1: Acuerdos grupales",
+                    "grade": 5.0,
+                    "percentage": 0.025
+                },
+                {
+                    "name": "Cumplimiento de la entrega no calificable 2: Percepciones - Padlet 1",
+                    "grade": 5.0,
+                    "percentage": 0.025
+                },
+                {
+                    "name": "Cumplimiento de la entrega no calificable 3: Comparar Percepciones - Padlet 2",
+                    "grade": 5.0,
+                    "percentage": 0.025
+                },
+                {
+                    "name": "Tabla de análisis y contextualización de fuentes unidad 2",
+                    "grade": 4.43,
+                    "percentage": 0.1
+                },
+                {
+                    "name": "Plan de trabajo - historia de vida",
+                    "grade": 4.5,
+                    "percentage": 0.025
+                },
+                {
+                    "name": "Narrativa sobre la historia de vida familiar",
+                    "grade": 5.0,
+                    "percentage": 0.25
+                },
+                {
+                    "name": "Cumplimiento de la entrega no calificable 5: Justificación elección eje",
+                    "grade": 5.0,
+                    "percentage": 0.03333333333333333
+                },
+                {
+                    "name": "Tabla de análisis y contextualización de fuentes unidad 3",
+                    "grade": 5.0,
+                    "percentage": 0.1
+                },
+                {
+                    "name": "Plan de trabajo grupal",
+                    "grade": 4.0,
+                    "percentage": 0.05
+                },
+                {
+                    "name": "Cumplimiento de la entrega no calificable 6: Foro: Contraste entre las fuentes",
+                    "grade": 5.0,
+                    "percentage": 0.03333333333333333
+                },
+                {
+                    "name": "Cumplimiento de la entrega no calificable 7: Pregunta y justificación fuentes",
+                    "grade": 5.0,
+                    "percentage": 0.03333333333333333
+                },
+                {
+                    "name": "Trabajo de indagación grupal",
+                    "grade": 4.3,
+                    "percentage": 0.3
+                }
+            ],
+            "calculated_grade": 4.6705,
+            "rounding_policy": 0.1,
+            "final_grade": 4.7
+        },
+        {
+            "fullname": "FISI 1518, 16: Física 1",
+            "name": "Física 1",
+            "code": "FISI 1518",
+            "section": 16,
+            "credits": 3,
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Complementaria FISI 1518, 16: Física 1",
+                    "grade": 4.87,
+                    "percentage": 0.2
+                },
+                {
+                    "name": "FISI 1019, 22: Física Experimental I",
+                    "grade": 5.0,
+                    "percentage": 0.2
+                },
+                {
+                    "name": "Quiz: Capítulo 1, secciones 1.1. a 3.3",
+                    "grade": 4.7,
+                    "percentage": 0.04
+                },
+                {
+                    "name": "Examen parcial 1: Capítulos 1 a 5",
+                    "grade": 5.0,
+                    "percentage": 0.12
+                },
+                {
+                    "name": "Examen parcial 2: Capítulos 6 a 9",
+                    "grade": 5.0,
+                    "percentage": 0.12
+                },
+                {
+                    "name": "Examen parcial 3: Capítulos 10 a 14",
+                    "grade": 3.92857142857143,
+                    "percentage": 0.12
+                },
+                {
+                    "name": "Examen final",
+                    "grade": 4.5,
+                    "percentage": 0.2
+                },
+                {
+                    "name": "Bonos FISI 1518, 16: Física 1",
+                    "grade": 0.27,
+                    "percentage": 0.0
+                }
+            ],
+            "calculated_grade": 4.733428571428572,
+            "bonus_points": {
+                "points": 0.27,
+                "reason": "|Clase|Fecha|Bono|Causa|\n| --- | --- | --- | --- |\n|Parcial 1|Marzo 11 2021|5 / 100|Nota de 105 sobre 100 en el parcial 1.|\n|Clase magistral 16|Jueves, marzo 18 2021|'Pequeño bonito [...] va a ser chiquitico'|Responder qué fuerzas eran constantes en la dinámica de una partícula que se desliza en un tazón hemisférico (ejercicio 7.9.).|\n|Clase magistral 18|Jueves, abril 8 2021 |5 puntos|1. Explicar por qué el momento lineal se conserva en una colisión inelástica aunque la enería cinética no se conserva. 2. Responder por qué no es posible igualar las energías antes y después de una colisión inelástica.|\n|Parcial 2||12 / 100|Nota de 112 sobre 100 en el parcial 2.|\n|Clase magistral 28|Jueves, mayo 13 2021|'Bonito'|Hallar una expresión para la velocidad de escape de la superficie lunar.|\n|Clase magistral 31|Martes, mayo 25 2021 |'Bonito adicional'|Hallar una expresión para la frecuencia angular de oscilación en un sistema de dos resortes unidos a una masa que oscila armónicamente.|\nTodos los bonos los tengo grabados."
+            },
+            "rounding_policy": 0.01,
+            "final_grade": 5.0
+        },
+        {
+            "fullname": "MATE 1105, 18: Álgebra Lineal 1 (Lineal)",
+            "name": "Álgebra Lineal 1",
+            "code": "MATE 1105",
+            "section": 18,
+            "nickname": "Lineal",
+            "credits": 3,
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Complementaria MATE 1105, 18: Álgebra Lineal 1",
+                    "grade": 4.87,
+                    "percentage": 0.2
+                },
+                {
+                    "name": "Examen acumulativo 1",
+                    "grade": 4.5833333333333,
+                    "percentage": 0.2
+                },
+                {
+                    "name": "Examen acumulativo 2",
+                    "grade": 5.0,
+                    "percentage": 0.2
+                },
+                {
+                    "name": "Examen acumulativo 3",
+                    "grade": 5.0,
+                    "percentage": 0.2
+                },
+                {
+                    "name": "Examen final",
+                    "grade": 5.0,
+                    "percentage": 0.2
+                }
+            ],
+            "calculated_grade": 4.89066666666666,
+            "bonus_points": {
+                "points": 0.11,
+                "reason": "En el programa del curso estaba estipulado: 'Las únicas aproximaciones en la nota final que se harán vienen dadas así: una nota final x en el intervalo [2.9, 3) se aproxima a 3. Una nota final x entre [4.9, 5) se aproxima a 5. No hay más excepciones. Ninguna nota parcial se aproxima. La nota final viene dada de acuerdo a los criterios de evaluación.' Carolina me perdonó una centésima y me incluyó en la política de aproximaciones."
+            },
+            "rounding_policy": 0.01,
+            "final_grade": 5.0
+        },
+        {
+            "fullname": "MATE 1214, 35: Cálculo Integral con Ecuaciones Diferenciales (Integral)",
+            "name": "Cálculo Integral con Ecuaciones Diferenciales",
+            "code": "MATE 1214",
+            "section": 35,
+            "nickname": "Integral",
+            "credits": 3,
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Complementaria MATE 1214, 35: Cálculo Integral con Ecuaciones Diferenciales",
+                    "grade": 5.0,
+                    "percentage": 0.15
+                },
+                {
+                    "name": "Examen parcial 1: Integración",
+                    "grade": 4.6,
+                    "percentage": 0.2
+                },
+                {
+                    "name": "Examen parcial 2: Ecuaciones diferenciales",
+                    "grade": 4.3,
+                    "percentage": 0.2
+                },
+                {
+                    "name": "Examen parcial 3: Sucesiones y series",
+                    "grade": 4.4,
+                    "percentage": 0.2
+                },
+                {
+                    "name": "Examen final",
+                    "grade": 4.8,
+                    "percentage": 0.25
+                }
+            ],
+            "calculated_grade": 4.61,
+            "rounding_policy": 0.01,
+            "final_grade": 4.61
+        },
+        {
+            "fullname": "QUIM 1103, 2: Química",
+            "name": "Química",
+            "code": "QUIM 1103",
+            "section": 2,
+            "credits": 3,
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "QUIM 1104, 26: Laboratorio de Química",
+                    "grade": 4.92857142857143,
+                    "percentage": 0.3
+                },
+                {
+                    "name": "Examen parcial 1: Nomenclatura y estequeometría",
+                    "grade": 5.0,
+                    "percentage": 0.14
+                },
+                {
+                    "name": "Quiz 1: Ecuaciones molecular, iónica y iónica neta",
+                    "grade": 5.0,
+                    "percentage": 0.02
+                },
+                {
+                    "name": "Examen parcial 2: Estequeometría y Redox",
+                    "grade": 5.0,
+                    "percentage": 0.14
+                },
+                {
+                    "name": "Examen parcial 3",
+                    "grade": 5.0,
+                    "percentage": 0.14
+                },
+                {
+                    "name": "Quiz 2: Equilibrio dinámico",
+                    "grade": 5.0,
+                    "percentage": 0.02
+                },
+                {
+                    "name": "Quiz 3: Soluciones reguladoras, solubilidad y pH",
+                    "grade": 5.0,
+                    "percentage": 0.03
+                },
+                {
+                    "name": "Examen final acumulativo",
+                    "grade": 5.0,
+                    "percentage": 0.21
+                },
+                {
+                    "name": "Punto extra: Prueba diagnóstica",
+                    "grade": 0.1,
+                    "percentage": 0.0
+                }
+            ],
+            "calculated_grade": 4.9785714285714295,
+            "bonus_points": {
+                "points": 0.1,
+                "reason": "Punto extra por realización de una prueba diagnóstica al inicio de semestre."
+            },
+            "rounding_policy": 0.01,
+            "final_grade": 5.0
+        },
+        {
+            "fullname": "FCIE 1010, 1: Introducción a las Ciencias (Ciclo 1 de 8 semanas) (Intro a Ciencias)",
+            "name": "Introducción a las Ciencias (Ciclo 1 de 8 semanas)",
+            "code": "FCIE 1010",
+            "section": 1,
+            "nickname": "Intro a Ciencias",
+            "credits": 2,
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Padlet Semana 1 (Prólogo y capítulos 1-3)",
+                    "grade": 5.0,
+                    "percentage": 0.03333333333333333
+                },
+                {
+                    "name": "Taller 1: Reconociendo la pseudociencia y desinformación en los medios de comunicación",
+                    "grade": 4.55,
+                    "percentage": 0.08333333333333333
+                },
+                {
+                    "name": "Padlet Semana 2 (Capítulos 4-7)",
+                    "grade": 5.0,
+                    "percentage": 0.03333333333333333
+                },
+                {
+                    "name": "Padlet Semana 3 (Capítulos 8-11)",
+                    "grade": 5.0,
+                    "percentage": 0.03333333333333333
+                },
+                {
+                    "name": "Taller 4: ¿Cómo se comparan las seis ciencias de la facultad?",
+                    "grade": 4.69,
+                    "percentage": 0.08333333333333333
+                },
+                {
+                    "name": "Padlet Semana 4 (Capítulos 12-15)",
+                    "grade": 5.0,
+                    "percentage": 0.03333333333333333
+                },
+                {
+                    "name": "Taller 2: Pitágoras",
+                    "grade": 5.0,
+                    "percentage": 0.08333333333333333
+                },
+                {
+                    "name": "Taller 3: En 10 años...",
+                    "grade": 4.8,
+                    "percentage": 0.08333333333333333
+                },
+                {
+                    "name": "Taller 5: El quehacer científico y sus posibles consecuencias: Andrew Wakefield y el movimiento antivacunas",
+                    "grade": 5.0,
+                    "percentage": 0.08333333333333333
+                },
+                {
+                    "name": "Padlet Semana 5 (Capítulos 16-19)",
+                    "grade": 5.0,
+                    "percentage": 0.03333333333333333
+                },
+                {
+                    "name": "Debate",
+                    "grade": 5.0,
+                    "percentage": 0.1
+                },
+                {
+                    "name": "Taller 6: ¿Por qué se retractan los científicos?",
+                    "grade": 4.5,
+                    "percentage": 0.08333333333333333
+                },
+                {
+                    "name": "Padlet Semana 6 (7) (Capítulo 20 y reflexión final)",
+                    "grade": 5.0,
+                    "percentage": 0.03333333333333333
+                },
+                {
+                    "name": "Proyecto grupal",
+                    "grade": 4.68,
+                    "percentage": 0.2
+                }
+            ],
+            "calculated_grade": 4.814333333333333,
+            "rounding_policy": 0.01,
+            "final_grade": 4.81
+        }
+    ]
+}

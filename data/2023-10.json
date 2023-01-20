@@ -1,0 +1,92 @@
+{
+    "name": "Sexto semestre",
+    "number": 6,
+    "year": 2023,
+    "period": 10,
+    "subjects": [
+        {
+            "fullname": "ISIS 2403, 2: Arquitectura Empresarial (Arquiemp)",
+            "name": "Arquitectura Empresarial",
+            "code": "ISIS 2403",
+            "section": 2,
+            "nickname": "Arquiemp",
+            "numeric": true,
+            "grades": [],
+            "calculated_grade": 0,
+            "final_grade": 0.0,
+            "credits": 3
+        },
+        {
+            "fullname": "ISIS 2503, 2: Arquitectura y Diseño de Software (Arquisoft)",
+            "name": "Arquitectura y Diseño de Software",
+            "code": "ISIS 2503",
+            "section": 2,
+            "nickname": "Arquisoft",
+            "numeric": true,
+            "grades": [],
+            "calculated_grade": 0,
+            "final_grade": 0.0,
+            "credits": 3
+        },
+        {
+            "fullname": "ISIS 2203, 1: Infraestructura Computacional (Infracomp)",
+            "name": "Infraestructura Computacional",
+            "code": "ISIS 2203",
+            "section": 1,
+            "nickname": "Infracomp",
+            "numeric": true,
+            "grades": [],
+            "calculated_grade": 0.0,
+            "final_grade": 0.0,
+            "credits": 3
+        },
+        {
+            "fullname": "ISIS 3302, 2: Modelado, Simulación y Optimización (MOS)",
+            "name": "Modelado, Simulación y Optimización",
+            "code": "ISIS 3302",
+            "section": 2,
+            "nickname": "MOS",
+            "numeric": true,
+            "grades": [],
+            "calculated_grade": 0.0,
+            "final_grade": 0.0,
+            "credits": 3
+        },
+        {
+            "fullname": "ISIS 2007, 1: Diseño de Productos e Innovación en TI (PMC)",
+            "name": "Diseño de Productos e Innovación en TI",
+            "code": "ISIS 2007",
+            "section": 1,
+            "nickname": "PMC",
+            "numeric": true,
+            "grades": [],
+            "calculated_grade": 0.0,
+            "final_grade": 0.0,
+            "credits": 3
+        },
+        {
+            "fullname": "CBCO 1345, 1: El Animal en el Paisaje Colombiano (CBU Animales)",
+            "name": "El Animal en el Paisaje Colombiano",
+            "code": "CBCO 1345",
+            "section": 1,
+            "nickname": "CBU Animales",
+            "numeric": true,
+            "grades": [],
+            "calculated_grade": 0.0,
+            "final_grade": 0.0,
+            "credits": 2
+        },
+        {
+            "fullname": "MATE 3712, 1: Teoría de Juegos (Juegos)",
+            "name": "Teoría de Juegos",
+            "code": "MATE 3712",
+            "section": 1,
+            "nickname": "Juegos",
+            "numeric": true,
+            "grades": [],
+            "calculated_grade": 0.0,
+            "final_grade": 0.0,
+            "credits": 3
+        }
+    ]
+}

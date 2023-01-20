@@ -1,0 +1,350 @@
+{
+    "name": "Primer semestre",
+    "number": 1,
+    "year": 2020,
+    "period": 20,
+    "subjects": [
+        {
+            "fullname": "DERE 1300, 11: Constitución y Democracia (Consti)",
+            "name": "Constitución y Democracia",
+            "code": "DERE 1300",
+            "section": 11,
+            "nickname": "Consti",
+            "credits": 3,
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Podcast: Relación entre la Constitución de 1991 y la noción de DDHH",
+                    "grade": 4.5,
+                    "percentage": 0.05
+                },
+                {
+                    "name": "Párrafo: Ejemplo de colaboración armónica",
+                    "grade": 4.4,
+                    "percentage": 0.05
+                },
+                {
+                    "name": "Infografía: Rama judicial Colombia",
+                    "grade": 5.0,
+                    "percentage": 0.1
+                },
+                {
+                    "name": "Podcast: Acceso sin barreras a la interrupción voluntaria del embarazo",
+                    "grade": 4.7,
+                    "percentage": 0.1
+                },
+                {
+                    "name": "Quiz 1 módulo de economía",
+                    "grade": 4.5,
+                    "percentage": 0.0525
+                },
+                {
+                    "name": "Quiz 2 módulo de economía",
+                    "grade": 5.0,
+                    "percentage": 0.0525
+                },
+                {
+                    "name": "Texto argumentativo módulo de economía",
+                    "grade": 4.0,
+                    "percentage": 0.045
+                },
+                {
+                    "name": "Texto: Igualdad y no discriminación",
+                    "grade": 5.0,
+                    "percentage": 0.1
+                },
+                {
+                    "name": "Texto: Recomendaciones de la OMS para el manejo de futuras pandemias",
+                    "grade": 4.9,
+                    "percentage": 0.15
+                },
+                {
+                    "name": "Infografía: Jurisdicción Especial para la Paz (JEP) y justicia transicional",
+                    "grade": 4.8,
+                    "percentage": 0.15
+                },
+                {
+                    "name": "Coevaluación",
+                    "grade": 5.0,
+                    "percentage": 0.15
+                }
+            ],
+            "calculated_grade": 4.79875,
+            "bonus_points": {
+                "points": 0.2,
+                "reason": "Votación democrática en el trabajo Video: Experiencia autonomía personal"
+            },
+            "rounding_policy": 0.01,
+            "final_grade": 5.0
+        },
+        {
+            "fullname": "FISI 1502, 1: Introducción a la Física",
+            "name": "Introducción a la Física",
+            "code": "FISI 1502",
+            "section": 1,
+            "credits": 3,
+            "numeric": true,
+            "grades": [
+                {
+                    "name": " Tarea 1: Péndulo simple",
+                    "grade": 4.97,
+                    "percentage": 0.15
+                },
+                {
+                    "name": "Examen parcial 1",
+                    "grade": 5.0,
+                    "percentage": 0.25
+                },
+                {
+                    "name": "Tarea 2: Osciladores acoplados",
+                    "grade": 5.0,
+                    "percentage": 0.15
+                },
+                {
+                    "name": "Examen parcial 2: Expermiento osciladores acoplados",
+                    "grade": 5.0,
+                    "percentage": 0.25
+                },
+                {
+                    "name": "Tarea 3: El descubrimiento de la violación de paridad",
+                    "grade": 5.0,
+                    "percentage": 0.15
+                },
+                {
+                    "name": "5% regalado para toda la clase",
+                    "grade": 5.0,
+                    "percentage": 0.05
+                }
+            ],
+            "calculated_grade": 4.9955,
+            "rounding_policy": 0.01,
+            "final_grade": 5.0
+        },
+        {
+            "fullname": "ISIS 1221, 28: Introducción a la Programación (IP)",
+            "name": "Introducción a la Programación",
+            "code": "ISIS 1221",
+            "section": 28,
+            "nickname": "IP",
+            "credits": 3,
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Tareas nivel 1",
+                    "grade": 5.0,
+                    "percentage": 0.01
+                },
+                {
+                    "name": "Proyecto nivel 1",
+                    "grade": 4.6,
+                    "percentage": 0.04
+                },
+                {
+                    "name": "Examen nivel 1",
+                    "grade": 4.65,
+                    "percentage": 0.05
+                },
+                {
+                    "name": "Tareas nivel 2",
+                    "grade": 5.0,
+                    "percentage": 0.03
+                },
+                {
+                    "name": "Proyecto nivel 2",
+                    "grade": 5.0,
+                    "percentage": 0.05
+                },
+                {
+                    "name": "Examen nivel 2",
+                    "grade": 5.0,
+                    "percentage": 0.17
+                },
+                {
+                    "name": "Tareas nivel 3",
+                    "grade": 5.0,
+                    "percentage": 0.04
+                },
+                {
+                    "name": "Examen nivel 3",
+                    "grade": 5.0,
+                    "percentage": 0.25
+                },
+                {
+                    "name": "Proyecto nivel 3",
+                    "grade": 5.0,
+                    "percentage": 0.06
+                },
+                {
+                    "name": "Tareas nivel 4",
+                    "grade": 5.0,
+                    "percentage": 0.02
+                },
+                {
+                    "name": "Proyecto nivel 4",
+                    "grade": 4.925,
+                    "percentage": 0.05
+                },
+                {
+                    "name": "Examen final",
+                    "grade": 5.0,
+                    "percentage": 0.23
+                }
+            ],
+            "calculated_grade": 4.96275,
+            "rounding_policy": 0.5,
+            "final_grade": 5.0
+        },
+        {
+            "fullname": "LENG 1511, 6: Escritura Universitaria I (Escritura 1)",
+            "name": "Escritura Universitaria I",
+            "code": "LENG 1511",
+            "section": 6,
+            "nickname": "Escritura 1",
+            "credits": 2,
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Párrafo sobre la importancia de la escritura",
+                    "grade": 4.4,
+                    "percentage": 0.1
+                },
+                {
+                    "name": "Resumen de ¡Vamos al Centro Comercial! Consumo y visualidades del miedo en la Medellín contemporánea",
+                    "grade": 4.65,
+                    "percentage": 0.25
+                },
+                {
+                    "name": "Reseña de Supermercados made in: Conexiones, consumo y apropiaciones. Estados Unidos y Colombia (siglo XX)",
+                    "grade": 4.95,
+                    "percentage": 0.3
+                },
+                {
+                    "name": "Ejercicio de tildes",
+                    "grade": 4.88,
+                    "percentage": 0.075
+                },
+                {
+                    "name": "Quiz de citación",
+                    "grade": 5.0,
+                    "percentage": 0.075
+                },
+                {
+                    "name": "Texto reflexivo",
+                    "grade": 5.0,
+                    "percentage": 0.2
+                }
+            ],
+            "calculated_grade": 4.8285,
+            "rounding_policy": 0.01,
+            "final_grade": 4.83
+        },
+        {
+            "fullname": "LENG 1512, 36: Escritura Universitaria II (Escritura 2)",
+            "name": "Escritura Universitaria II",
+            "code": "LENG 1512",
+            "section": 36,
+            "nickname": "Escritura 2",
+            "credits": 2,
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Quiz deductivo o inductivo",
+                    "grade": 5.0,
+                    "percentage": 0.05
+                },
+                {
+                    "name": "Diagrama de lectura de Guy Debord 2.0: hacia un análisis de la mercantilización de la subjetividad en las redes sociales",
+                    "grade": 4.575,
+                    "percentage": 0.1
+                },
+                {
+                    "name": "Planteamiento de tesis para el texto argumentativo",
+                    "grade": 4.0,
+                    "percentage": 0.1
+                },
+                {
+                    "name": "Autoevaluación debate presidencial",
+                    "grade": 5.0,
+                    "percentage": 0.05
+                },
+                {
+                    "name": "Quiz dialéctico y falacias",
+                    "grade": 5.0,
+                    "percentage": 0.05
+                },
+                {
+                    "name": "Diagrama de texto argumentativo",
+                    "grade": 4.475,
+                    "percentage": 0.1
+                },
+                {
+                    "name": "Texto argumentativo final",
+                    "grade": 5.0,
+                    "percentage": 0.3
+                },
+                {
+                    "name": "Evaluación profesor debate Orator",
+                    "grade": 5.0,
+                    "percentage": 0.05
+                },
+                {
+                    "name": "Coevaluación debate boxing",
+                    "grade": 5.0,
+                    "percentage": 0.05
+                },
+                {
+                    "name": "Texto reflexivo",
+                    "grade": 5.0,
+                    "percentage": 0.15
+                }
+            ],
+            "calculated_grade": 4.805,
+            "rounding_policy": 0.01,
+            "final_grade": 4.81
+        },
+        {
+            "fullname": "MATE 1203, 4: Cálculo Diferencial (Diferencial)",
+            "name": "Cálculo Diferencial",
+            "code": "MATE 1203",
+            "section": 4,
+            "nickname": "Diferencial",
+            "credits": 3,
+            "numeric": true,
+            "grades": [
+                {
+                    "name": "Taller 1: Límites",
+                    "grade": 4.6,
+                    "percentage": 0.1
+                },
+                {
+                    "name": "Examen parcial 1: Límites",
+                    "grade": 5.0,
+                    "percentage": 0.2
+                },
+                {
+                    "name": "Examen parcial 2: Derivadas",
+                    "grade": 5.0,
+                    "percentage": 0.2
+                },
+                {
+                    "name": "Taller 2: Optimización",
+                    "grade": 4.9,
+                    "percentage": 0.1
+                },
+                {
+                    "name": "Examen parcial 3: Antiderivadas e integral definida",
+                    "grade": 5.0,
+                    "percentage": 0.2
+                },
+                {
+                    "name": "Examen final",
+                    "grade": 4.0,
+                    "percentage": 0.2
+                }
+            ],
+            "calculated_grade": 4.75,
+            "rounding_policy": 0.01,
+            "final_grade": 4.75
+        }
+    ]
+}
