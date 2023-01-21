@@ -94,9 +94,12 @@ class Subject:
         self.calculate_final_grade()
 
     def calculate_grade(self) -> None:
-        self.calculated_grade = sum(
-            map(lambda x: x.grade * x.percentage, self.grades))
-        pass
+        if self.grades:
+            num: float = sum(
+                map(lambda x: x.grade * x.percentage, self.grades))
+            den: float = sum(map(lambda x: x.percentage, self.grades))
+            if den != 0:
+                self.calculated_grade = num / den
 
     def as_dict(self) -> None:
         dict_ = {

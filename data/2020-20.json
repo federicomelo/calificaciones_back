@@ -82,6 +82,7 @@
             "name": "Introducción a la Física",
             "code": "FISI 1502",
             "section": 1,
+            "nickname": "Intro a Física",
             "credits": 3,
             "numeric": true,
             "grades": [
@@ -234,7 +235,7 @@
                     "percentage": 0.2
                 }
             ],
-            "calculated_grade": 4.8285,
+            "calculated_grade": 4.828500000000001,
             "rounding_policy": 0.01,
             "final_grade": 4.83
         },
