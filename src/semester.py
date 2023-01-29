@@ -48,3 +48,7 @@ class Semester:
 
     def __repr__(self) -> str:
         return f"{self.name} ({self.year}-{self.period})"
+
+    def average(self) -> float:
+        
+        return sum(subject.final_grade for subject in self.subjects) / len(self.subjects)

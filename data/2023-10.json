@@ -1,222 +1,375 @@
 {
-    "name": "Sexto semestre",
-    "number": 6,
-    "year": 2023,
-    "period": 10,
-    "subjects": [
+  "name": "Sexto semestre",
+  "number": 6,
+  "year": 2023,
+  "period": 10,
+  "subjects": [
+    {
+      "fullname": "ISIS 2403, 2: Arquitectura Empresarial (Arquiemp)",
+      "name": "Arquitectura Empresarial",
+      "code": "ISIS 2403",
+      "section": 2,
+      "nickname": "Arquiemp",
+      "credits": 3,
+      "numeric": true,
+      "grades": [
         {
-            "fullname": "ISIS 2403, 2: Arquitectura Empresarial (Arquiemp)",
-            "name": "Arquitectura Empresarial",
-            "code": "ISIS 2403",
-            "section": 2,
-            "nickname": "Arquiemp",
-            "credits": 3,
-            "numeric": true,
-            "grades": [
-                {
-                    "name": "Examen 1",
-                    "grade": 0.0,
-                    "percentage": 0.25
-                },
-                {
-                    "name": "Examen 2",
-                    "grade": 0.0,
-                    "percentage": 0.25
-                },
-                {
-                    "name": "Taller 1",
-                    "grade": 0.0,
-                    "percentage": 0.07333333333333333,
-                    "comments": "Los talleres se desarrollarán en grupos de 4 estudiantes. Quien no asista a la sustentación del taller, tendrá cero como nota en esa actividad."
-                },
-                {
-                    "name": "Taller 2",
-                    "grade": 0.0,
-                    "percentage": 0.07333333333333333
-                },
-                {
-                    "name": "Taller 3",
-                    "grade": 0.0,
-                    "percentage": 0.07333333333333333
-                },
-                {
-                    "name": "Hoja de trabajo 1",
-                    "grade": 0.0,
-                    "percentage": 0.02875
-                },
-                {
-                    "name": "Hoja de trabajo 2",
-                    "grade": 0.0,
-                    "percentage": 0.02875
-                },
-                {
-                    "name": "Hoja de trabajo 3",
-                    "grade": 0.0,
-                    "percentage": 0.02875
-                },
-                {
-                    "name": "Hoja de trabajo 4",
-                    "grade": 0.0,
-                    "percentage": 0.02875
-                },
-                {
-                    "name": "Hoja de trabajo 5",
-                    "grade": 0.0,
-                    "percentage": 0.02875
-                },
-                {
-                    "name": "Hoja de trabajo 6",
-                    "grade": 0.0,
-                    "percentage": 0.02875
-                },
-                {
-                    "name": "Hoja de trabajo 7",
-                    "grade": 0.0,
-                    "percentage": 0.02875
-                },
-                {
-                    "name": "Hoja de trabajo 8",
-                    "grade": 0.0,
-                    "percentage": 0.02875
-                },
-                {
-                    "name": "Expociciones",
-                    "grade": 0.0,
-                    "percentage": 0.05,
-                    "comments": "Los temas de las exposiciones serán asignados a lo largo del semestre. Cada exposición debe desarrollarse en parejas, con una duración de 15 minutos. La nota tendrá en cuenta el contenido, la estructura, la claridad de la presentación y el aporte del grupo."
-                }
-            ],
-            "calculated_grade": 0.0,
-            "rounding_policy": 0.5,
-            "final_grade": 0.0
+          "name": "Examen 1",
+          "grade": 0.0,
+          "percentage": 0.25
         },
         {
-            "fullname": "ISIS 2503, 2: Arquitectura y Diseño de Software (Arquisoft)",
-            "name": "Arquitectura y Diseño de Software",
-            "code": "ISIS 2503",
-            "section": 2,
-            "nickname": "Arquisoft",
-            "credits": 3,
-            "numeric": true,
-            "grades": [],
-            "calculated_grade": 0.0,
-            "rounding_policy": 0.01,
-            "final_grade": 0.0
+          "name": "Examen 2",
+          "grade": 0.0,
+          "percentage": 0.25
         },
         {
-            "fullname": "ISIS 2203, 1: Infraestructura Computacional (Infracomp)",
-            "name": "Infraestructura Computacional",
-            "code": "ISIS 2203",
-            "section": 1,
-            "nickname": "Infracomp",
-            "credits": 3,
-            "numeric": true,
-            "grades": [
-                {
-                    "name": "Caso 1",
-                    "grade": 0.0,
-                    "percentage": 0.11,
-                    "comments": "- Para cada uno de los casos se conformará un grupo de trabajo diferente y de forma aleatoria. - En las entregas de los casos se evalúa el nivel de avance del código entregado (p.e. no compila, compila, pero no corre, corre pero no termina, etc.) y este nivel se usa para ponderar la calificación del caso. - Por cada uno de los casos se hará una coevaluación y esta se usará para ponderar la calificación del caso. Esta coevaluación tiene tres componentes: autoevaluación, coevaluación del compañero 1 y coevaluación del compañero 2. En los casos donde el grupo quede conformado por dos integrantes la coevaluación tendrá dos componentes: autoevaluación y evaluación del compañero. Atención: Observe que la calificación de cada caso será ponderada por la coevaluación correspondiente: Calificación caso = calificación de la entrega * (coevaluación/5)."
-                },
-                {
-                    "name": "Caso 2",
-                    "grade": 0.0,
-                    "percentage": 0.11
-                },
-                {
-                    "name": "Caso 3",
-                    "grade": 0.0,
-                    "percentage": 0.11
-                },
-                {
-                    "name": "Caso 4",
-                    "grade": 0.0,
-                    "percentage": 0.11
-                },
-                {
-                    "name": "Quices",
-                    "grade": 0.0,
-                    "percentage": 0.1,
-                    "comments": "- La asistencia a los laboratorios es importante. Durante las sesiones habrá quices, pero aún más importante el asistente y el monitor estarán allí para ayudar a resolver las dudas que tenga y así facilitar su proceso de aprendizaje. - Para los quices no hay supletorios. En cambio, al final del semestre se eliminarán los 4 quices con calificaciones más bajas."
-                },
-                {
-                    "name": "Parcial 1: Introducción y concurrencia",
-                    "grade": 0.0,
-                    "percentage": 0.16,
-                    "comments": "Supletorio únicamente al final de la semana 8."
-                },
-                {
-                    "name": "Parcial 2: Virtualización y seguridad",
-                    "grade": 0.0,
-                    "percentage": 0.16,
-                    "comments": "Supletorio únicamente al final del semestre, acumulativo parciales 2 y 3."
-                },
-                {
-                    "name": "Parcial 3: Análisis de desempeño y planeación de capacidades",
-                    "grade": 0.0,
-                    "percentage": 0.14,
-                    "comments": "Supletorio únicamente al final del semestre, acumulativo parciales 2 y 3."
-                }
-            ],
-            "calculated_grade": 0.0,
-            "bonus_points": {
-                "points": 0.0,
-                "reason": "La participación da un bono de hasta 0,25 siempre y cuando el promedio ponderado de los parciales sea superior a 2,5"
-            },
-            "rounding_policy": 0.01,
-            "final_grade": 0.0
+          "name": "Taller 1",
+          "grade": 0.0,
+          "percentage": 0.07333333333333333,
+          "comments": "Los talleres se desarrollarán en grupos de 4 estudiantes. Quien no asista a la sustentación del taller, tendrá cero como nota en esa actividad."
         },
         {
-            "fullname": "ISIS 3302, 2: Modelado, Simulación y Optimización (MOS)",
-            "name": "Modelado, Simulación y Optimización",
-            "code": "ISIS 3302",
-            "section": 2,
-            "nickname": "MOS",
-            "credits": 3,
-            "numeric": true,
-            "grades": [],
-            "calculated_grade": 0.0,
-            "rounding_policy": 0.01,
-            "final_grade": 0.0
+          "name": "Taller 2",
+          "grade": 0.0,
+          "percentage": 0.07333333333333333
         },
         {
-            "fullname": "ISIS 2007, 1: Diseño de Productos e Innovación en TI (PMC)",
-            "name": "Diseño de Productos e Innovación en TI",
-            "code": "ISIS 2007",
-            "section": 1,
-            "nickname": "PMC",
-            "credits": 3,
-            "numeric": true,
-            "grades": [],
-            "calculated_grade": 0.0,
-            "rounding_policy": 0.01,
-            "final_grade": 0.0
+          "name": "Taller 3",
+          "grade": 0.0,
+          "percentage": 0.07333333333333333
         },
         {
-            "fullname": "CBCO 1345, 1: El Animal en el Paisaje Colombiano (CBU Animales)",
-            "name": "El Animal en el Paisaje Colombiano",
-            "code": "CBCO 1345",
-            "section": 1,
-            "nickname": "CBU Animales",
-            "credits": 2,
-            "numeric": true,
-            "grades": [],
-            "calculated_grade": 0.0,
-            "rounding_policy": 0.01,
-            "final_grade": 0.0
+          "name": "Hoja de trabajo 1",
+          "grade": 0.0,
+          "percentage": 0.02875
         },
         {
-            "fullname": "MATE 3712, 1: Teoría de Juegos (Juegos)",
-            "name": "Teoría de Juegos",
-            "code": "MATE 3712",
-            "section": 1,
-            "nickname": "Juegos",
-            "credits": 3,
-            "numeric": true,
-            "grades": [],
-            "calculated_grade": 0.0,
-            "rounding_policy": 0.01,
-            "final_grade": 0.0
+          "name": "Hoja de trabajo 2",
+          "grade": 0.0,
+          "percentage": 0.02875
+        },
+        {
+          "name": "Hoja de trabajo 3",
+          "grade": 0.0,
+          "percentage": 0.02875
+        },
+        {
+          "name": "Hoja de trabajo 4",
+          "grade": 0.0,
+          "percentage": 0.02875
+        },
+        {
+          "name": "Hoja de trabajo 5",
+          "grade": 0.0,
+          "percentage": 0.02875
+        },
+        {
+          "name": "Hoja de trabajo 6",
+          "grade": 0.0,
+          "percentage": 0.02875
+        },
+        {
+          "name": "Hoja de trabajo 7",
+          "grade": 0.0,
+          "percentage": 0.02875
+        },
+        {
+          "name": "Hoja de trabajo 8",
+          "grade": 0.0,
+          "percentage": 0.02875
+        },
+        {
+          "name": "Expociciones",
+          "grade": 0.0,
+          "percentage": 0.05,
+          "comments": "Los temas de las exposiciones serán asignados a lo largo del semestre. Cada exposición debe desarrollarse en parejas, con una duración de 15 minutos. La nota tendrá en cuenta el contenido, la estructura, la claridad de la presentación y el aporte del grupo."
         }
-    ]
+      ],
+      "calculated_grade": 0.0,
+      "rounding_policy": 0.5,
+      "final_grade": 0.0
+    },
+    {
+      "fullname": "ISIS 2503, 2: Arquitectura y Diseño de Software (Arquisoft)",
+      "name": "Arquitectura y Diseño de Software",
+      "code": "ISIS 2503",
+      "section": 2,
+      "nickname": "Arquisoft",
+      "credits": 3,
+      "numeric": true,
+      "grades": [
+        {
+          "name": "Parcial 1",
+          "grade": 0.0,
+          "percentage": 0.1
+        },
+        {
+          "name": "Parcial 2",
+          "grade": 0.0,
+          "percentage": 0.1
+        },
+        {
+          "name": "Sprint 1: Visión de arquitectura",
+          "grade": 0.0,
+          "percentage": 0.1
+        },
+        {
+          "name": "Sprint 2: Latencia y escalabilidad (desempeño)",
+          "grade": 0.0,
+          "percentage": 0.12
+        },
+        {
+          "name": "Sprint 3: Disponibilidad y seguridad",
+          "grade": 0.0,
+          "percentage": 0.12
+        },
+        {
+          "name": "Sprint 4: Microservicios",
+          "grade": 0.0,
+          "percentage": 0.16
+        },
+        {
+          "name": "Talleres de laboratorios",
+          "grade": 0.0,
+          "percentage": 0.15
+        },
+        {
+          "name": "Actividades y tareas del \"antes\"",
+          "grade": 0.0,
+          "percentage": 0.1
+        },
+        {
+          "name": "Participación individual en Slack",
+          "grade": 0.0,
+          "percentage": 0.05
+        }
+      ],
+      "calculated_grade": 0.0,
+      "rounding_policy": 0.5,
+      "final_grade": 0.0
+    },
+    {
+      "fullname": "ISIS 2203, 1: Infraestructura Computacional (Infracomp)",
+      "name": "Infraestructura Computacional",
+      "code": "ISIS 2203",
+      "section": 1,
+      "nickname": "Infracomp",
+      "credits": 3,
+      "numeric": true,
+      "grades": [
+        {
+          "name": "Caso 1",
+          "grade": 0.0,
+          "percentage": 0.11,
+          "comments": "- Para cada uno de los casos se conformará un grupo de trabajo diferente y de forma aleatoria. - En las entregas de los casos se evalúa el nivel de avance del código entregado (p.e. no compila, compila, pero no corre, corre pero no termina, etc.) y este nivel se usa para ponderar la calificación del caso. - Por cada uno de los casos se hará una coevaluación y esta se usará para ponderar la calificación del caso. Esta coevaluación tiene tres componentes: autoevaluación, coevaluación del compañero 1 y coevaluación del compañero 2. En los casos donde el grupo quede conformado por dos integrantes la coevaluación tendrá dos componentes: autoevaluación y evaluación del compañero. Atención: Observe que la calificación de cada caso será ponderada por la coevaluación correspondiente: Calificación caso = calificación de la entrega * (coevaluación/5)."
+        },
+        {
+          "name": "Caso 2",
+          "grade": 0.0,
+          "percentage": 0.11
+        },
+        {
+          "name": "Caso 3",
+          "grade": 0.0,
+          "percentage": 0.11
+        },
+        {
+          "name": "Caso 4",
+          "grade": 0.0,
+          "percentage": 0.11
+        },
+        {
+          "name": "Quices",
+          "grade": 0.0,
+          "percentage": 0.1,
+          "comments": "- La asistencia a los laboratorios es importante. Durante las sesiones habrá quices, pero aún más importante el asistente y el monitor estarán allí para ayudar a resolver las dudas que tenga y así facilitar su proceso de aprendizaje. - Para los quices no hay supletorios. En cambio, al final del semestre se eliminarán los 4 quices con calificaciones más bajas."
+        },
+        {
+          "name": "Parcial 1: Introducción y concurrencia",
+          "grade": 0.0,
+          "percentage": 0.16,
+          "comments": "Supletorio únicamente al final de la semana 8."
+        },
+        {
+          "name": "Parcial 2: Virtualización y seguridad",
+          "grade": 0.0,
+          "percentage": 0.16,
+          "comments": "Supletorio únicamente al final del semestre, acumulativo parciales 2 y 3."
+        },
+        {
+          "name": "Parcial 3: Análisis de desempeño y planeación de capacidades",
+          "grade": 0.0,
+          "percentage": 0.14,
+          "comments": "Supletorio únicamente al final del semestre, acumulativo parciales 2 y 3."
+        }
+      ],
+      "calculated_grade": 0.0,
+      "bonus_points": {
+        "points": 0.0,
+        "reason": "La participación da un bono de hasta 0,25 siempre y cuando el promedio ponderado de los parciales sea superior a 2,5"
+      },
+      "rounding_policy": 0.01,
+      "final_grade": 0.0
+    },
+    {
+      "fullname": "ISIS 3302, 2: Modelado, Simulación y Optimización (MOS)",
+      "name": "Modelado, Simulación y Optimización",
+      "code": "ISIS 3302",
+      "section": 2,
+      "nickname": "MOS",
+      "credits": 3,
+      "numeric": true,
+      "grades": [
+        {
+          "name": "Parcial 1",
+          "grade": 0.0,
+          "percentage": 0.15
+        },
+        {
+          "name": "Parcial 2",
+          "grade": 0.0,
+          "percentage": 0.2
+        },
+        {
+          "name": "Parcial final",
+          "grade": 0.0,
+          "percentage": 0.15
+        },
+        {
+          "name": "Talleres y laboratorios",
+          "grade": 0.0,
+          "percentage": 0.2,
+          "comments": "En pareja con Sinis. Talleres: son actividades puestas en clase para una entrega posterior (normalmente 1 semana después). - Laboratorio: todas las semanas (excepto la primera semana). Dura dos semanas cada uno. Primera semana: conceptos, ejemplos, inicio del desarrollo del laboratorio. Segunda semana: desarrollo del laboratorio"
+        },
+        {
+          "name": "Entrega 1 Proyecto Final",
+          "grade": 0.0,
+          "percentage": 0.05,
+          "comments": "En pareja con Sinis."
+        },
+        {
+          "name": "Entrega 2 Proyecto Final",
+          "grade": 0.0,
+          "percentage": 0.1,
+          "comments": "En pareja con Sinis."
+        },
+        {
+          "name": "Entrega 3 Proyecto Final",
+          "grade": 0.0,
+          "percentage": 0.15,
+          "comments": "En pareja con Sinis."
+        }
+      ],
+      "calculated_grade": 0.0,
+      "rounding_policy": 0.01,
+      "final_grade": 0.0
+    },
+    {
+      "fullname": "ISIS 2007, 1: Diseño de Productos e Innovación en TI (PMC)",
+      "name": "Diseño de Productos e Innovación en TI",
+      "code": "ISIS 2007",
+      "section": 1,
+      "nickname": "PMC",
+      "credits": 3,
+      "numeric": true,
+      "grades": [],
+      "calculated_grade": 0.0,
+      "rounding_policy": 0.01,
+      "final_grade": 0.0
+    },
+    {
+      "fullname": "CBCO 1345, 1: El Animal en el Paisaje Colombiano (CBU Animales)",
+      "name": "El Animal en el Paisaje Colombiano",
+      "code": "CBCO 1345",
+      "section": 1,
+      "nickname": "CBU Animales",
+      "credits": 2,
+      "numeric": true,
+      "grades": [
+        {
+          "name": "Controles de lectura y exposiciones",
+          "grade": 0.0,
+          "percentage": 0.3
+        },
+        {
+            "name": "Actividades colaborativas",
+            "grade": 0.0,
+            "percentage": 0.3
+        },
+        {
+            "name": "Taller formación ética",
+            "grade": 0.0,
+            "percentage": 0.15
+        },
+        {
+            "name": "Proyecto final",
+            "grade": 0.0,
+            "percentage": 0.25
+        }
+      ],
+      "calculated_grade": 0.0,
+      "bonus_points": {
+        "points": 0.0,
+        "reason": "Trabajos complementarios: son trabajos voluntarios individuales, en parejas o en grupos, cuya nota se guarda de reserva para luego promediarla con la nota individual más baja."
+      },
+      "rounding_policy": 0.01,
+      "final_grade": 0.0
+    },
+    {
+      "fullname": "MATE 3712, 1: Teoría de Juegos (Juegos)",
+      "name": "Teoría de Juegos",
+      "code": "MATE 3712",
+      "section": 1,
+      "nickname": "Juegos",
+      "credits": 3,
+      "numeric": true,
+      "grades": [
+        {
+          "name": "Examen 1",
+          "grade": 0.0,
+          "percentage": 0.3
+        },
+        {
+          "name": "Examen final (semana 16)",
+          "grade": 0.0,
+          "percentage": 0.35
+        },
+        {
+          "name": "Taller 1",
+          "grade": 0.0,
+          "percentage": 0.04
+        },
+        {
+          "name": "Taller 2",
+          "grade": 0.0,
+          "percentage": 0.04
+        },
+        {
+          "name": "Taller 3",
+          "grade": 0.0,
+          "percentage": 0.04
+        },
+        {
+          "name": "Taller 4",
+          "grade": 0.0,
+          "percentage": 0.04
+        },
+        {
+          "name": "Taller 5",
+          "grade": 0.0,
+          "percentage": 0.04
+        },
+        {
+          "name": "Exposición del trabajo final",
+          "grade": 0.0,
+          "percentage": 0.15,
+          "comments": "Durante la semana de exámenes finales."
+        }
+      ],
+      "calculated_grade": 0.0,
+      "rounding_policy": 0.01,
+      "final_grade": 0.0
+    }
+  ]
 }

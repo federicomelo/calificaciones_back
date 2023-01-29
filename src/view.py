@@ -1,180 +1,105 @@
+import tkinter.messagebox
+import customtkinter
+
+from functools import partial
+from tkinter import Menu, LEFT, BOTH
+from matplotlib.pyplot import Figure
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+
+from major import Major
 from semester import Semester
 from subject import Subject
 from grade import Grade
-from model import persist_semester, import_semester
-
-def menu() -> None:
-    while True:
-        try:
-            print("Menú principal\n")
-            print("1. Nuevo semestre\n")
-            print("2. Seleccionar semestre\n")
-            selection: str = input("Seleccione una opción: ")
-            if selection == "1":
-                get_semester(1)
-            elif selection == "2":
-                get_semester(2)
-        except KeyboardInterrupt:
-            print("\nSaliendo...")
-            exit()
+from model import *
+from typing import Iterable
 
 
-def get_semester(new_or_select: int) -> None:
-    try: 
-        year = int(input("Año del semestre\nE.g: 2021\n> "))
-    except ValueError:
-        print("El año debe ser un número entero")
-        semester(new_or_select)
-    try:
-        period = int(input("Periodo del semestre\n10 para primer semestre del año, 20 para segundo\n> "))
-    except ValueError:
-        print("El periodo debe ser un número entero")
-        semester(new_or_select)
-    if new_or_select == 1:
-        semester = Semester(year, period)
-    elif new_or_select == 2:
-        semester = import_semester(year, period)
-    semester_menu(semester)
+customtkinter.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
+customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
 
+MAJOR: Major = None
 
-def semester_menu(semester: Semester) -> None:
-    print(f"Menú de {semester.name}\n")
-    print("1. Agregar materia\n")
-    print("2. Seleccionar materia\n")
-    print("3. Persistir semestre\n")
-    print("4. Volver al menú principal\n")
-    selection = input("Seleccione una opción: \n\n")
-    if selection == "1":
-        new_subject(semester)
-    elif selection == "2":
-        show_subjects(semester)
-    elif selection == "3":
-        persist_semester(semester)
-    elif selection == "4":
-        menu()
+class App(customtkinter.CTk):
+    def __init__(self):
+        super().__init__()
 
-def show_subjects(semester: Semester) -> None:
-    subjects: list[Subject] = sorted(semester.subjects)
-    i = 0
-    while i < len(subjects):
-        print(str(i+1) + ". " + str(subjects[i]) + "\n")
-        i += 1
-    print(str(i+1) + ". Volver al menú de semestre\n")
-    try:
-        selection = int(input("Seleccione una opción: "))
-    except ValueError:
-        print("La selección debe ser un número entero entre 1 y " + str(i+1))
-    if selection == i+1:
-        semester_menu(semester)
-    else:
-        subject: Subject = subjects[selection-1]
-        subject_menu(subject, semester)
+        # configure window
+        self.title("Evaluación de desempeño académico")
+        self.geometry(f"{1100}x{580}")
+
+        # layout: two columns, four rows
+        self.grid_columnconfigure(1, weight=1)
+        self.grid_rowconfigure((0, 1, 2), weight=1)
+
+        self.create_sidebar()
+
+        # create tabview
+        self.tabview = customtkinter.CTkTabview(self)
+        self.tabview.grid(row=0, column=1, rowspan=4, sticky="nsew", pady=0, padx=20)
+        self.tabview.add("Carrera")
+        self.tabview.add("Semestres")
+        self.tabview.add("Cursos")
+
+        self.tabview.tab("Carrera").grid_columnconfigure(0, weight=1)  # configure grid of individual tabs
+        self.main_graph(self.tabview.tab("Carrera"))
+
+        self.tabview.tab("Semestres").grid_columnconfigure(0, weight=1)
+
+        self.optionmenu_1 = customtkinter.CTkOptionMenu(self.tabview.tab("Semestres"), dynamic_resizing=False,
+                                                        values=["2020-20", "2023-10"])
+        self.optionmenu_1.grid(row=0, column=0, padx=20, pady=(20, 10))
+
     
-
-def new_subject(semester: Semester) -> None:
-    name = input(
-        "Nombre de la materia\nE.g: Diseño y Análisis de Algoritmos\n> ")
-    code = input("Código de la materia\nE.g: ISIS 1105\n> ")
-    code = code.replace("-", " ")
-    credits = int(input("Créditos de la materia\nE.g: 3\n> "))
-    section = int(input("Sección de la materia\nE.g: 1\n> "))
-    nickname = input("Apodo de la materia\nE.g: Dalgo\n> ")
-    subject = Subject(name, credits, code, section, nickname)
-    semester.add_subject(subject)
-    subject_menu(subject, semester)
+    def main_graph(self, root: customtkinter.CTk) -> None:
+        graph: Figure = MAJOR.performance_graph()
+        canvas = FigureCanvasTkAgg(graph, root).get_tk_widget().pack(fill=BOTH, expand=True)
 
 
-def subject_menu(subject: Subject, semester: Semester) -> None:
-    print(f"Menú de {subject.nickname} ({semester.name})\n")
-    print("1. Agregar nota\n")
-    print("2. Ver o editar notas\n")
-    print("3. Volver a menú de semestre\n")
-    selection = input("Seleccione una opción: \n\n")
-    if selection == "1":
-        new_grade(subject, semester)
-    elif selection == "2":
-        show_grades(subject, semester)
-    elif selection == "4":
-        semester_menu(semester)
+    def create_sidebar(self):
+        self.sidebar_frame = customtkinter.CTkFrame(self, width=140, corner_radius=0)
+        self.sidebar_frame.grid(row=0, column=0, rowspan=4, sticky="nsew")
+        self.sidebar_frame.grid_rowconfigure(4, weight=1)
 
-def show_grades(subject: Subject, semester: Semester) -> None:
-    grades: list[Grade] = subject.grades
-    i = 0
-    while i < len(grades):
-        print(str(i+1) + ". " + str(grades[i]) + "\n")
-        i += 1
-    print(str(i+1) + ". Volver al menú de materia\n")
-    try:
-        selection = int(input("Seleccione una opción: "))
-    except ValueError:
-        print("La selección debe ser un número entero entre 1 y " + str(i+1))
-    if selection == i+1:
-        subject_menu(subject, semester)
-    else:
-        grade: Grade = grades[selection-1]
-        grade_menu(grade, subject, semester)
+        self.logo_label = customtkinter.CTkLabel(self.sidebar_frame, text="Calificaciones", font=customtkinter.CTkFont(size=20, weight="bold"))
+        self.logo_label.grid(row=0, column=0, padx=20, pady=(20, 10))
+
+        self.carrera = customtkinter.CTkButton(self.sidebar_frame, text="Carrera", command=self.sidebar_button_event)
+        self.carrera.grid(row=1, column=0, padx=20, pady=10)
+
+        self.semestres = customtkinter.CTkButton(self.sidebar_frame, text="Semestres",command=self.sidebar_button_event)
+        self.semestres.grid(row=2, column=0, padx=20, pady=10)
+
+        self.cursos = customtkinter.CTkButton(self.sidebar_frame, text="Cursos",command=self.sidebar_button_event)
+        self.cursos.grid(row=3, column=0, padx=20, pady=10)
+
+        self.appearance_mode_label = customtkinter.CTkLabel(self.sidebar_frame, text="Apariencia:", anchor="w")
+        self.appearance_mode_label.grid(row=5, column=0, padx=20, pady=(10, 0))
+        self.appearance_mode_optionemenu = customtkinter.CTkOptionMenu(self.sidebar_frame, values=["Light", "Dark", "System"],
+                                                                       command=self.change_appearance_mode_event)
+        self.appearance_mode_optionemenu.grid(row=6, column=0, padx=20, pady=(10, 10))
+        self.scaling_label = customtkinter.CTkLabel(self.sidebar_frame, text="Zoom:", anchor="w")
+        self.scaling_label.grid(row=7, column=0, padx=20, pady=(10, 0))
+        self.scaling_optionemenu = customtkinter.CTkOptionMenu(self.sidebar_frame, values=["80%", "90%", "100%", "110%", "120%"],
+                                                               command=self.change_scaling_event)
+        self.scaling_optionemenu.grid(row=8, column=0, padx=20, pady=(10, 20))
 
 
-def grade_menu(grade: Grade, subject: Subject, semester: Semester) -> None:
-    print(f"Menú de {grade.name} ({subject.nickname})\n")
-    print("1. Editar nota\n")
-    print("2. Editar porcentaje\n")
-    print("3. Editar observaciones\n")
-    print("4. Volver al menú de materia\n")
-    selection = input("Seleccione una opción: \n\n")
-    if selection == "1":
-        edit_name(grade, subject, semester)
-    elif selection == "2":
-        edit_grade(grade, subject, semester)
-    elif selection == "3":
-        edit_percentage(grade, subject, semester)
-    elif selection == "4":
-        edit_comments(grade, subject, semester)
-    elif selection == "5":
-        subject_menu(subject, semester)
+    def open_input_dialog_event(self):
+        dialog = customtkinter.CTkInputDialog(text="Type in a number:", title="CTkInputDialog")
+        print("CTkInputDialog:", dialog.get_input())
 
-def edit_name(grade: Grade, subject: Subject, semester: Semester) -> None:
-    grade.name = input("Nombre de la nota\nE.g: Examen 1\n> ")
-    persist_semester(semester)
-    grade_menu(grade, subject, semester)
+    def change_appearance_mode_event(self, new_appearance_mode: str):
+        customtkinter.set_appearance_mode(new_appearance_mode)
 
-def edit_grade(grade: Grade, subject: Subject, semester: Semester) -> None:
-    try:
-        grade.grade = float(input("Nota sobre 5\nE.g: 5.0\n> "))
-    except ValueError:
-        print("La nota debe ser un número decimal entre 0.0 y 5.0")
-        edit_grade(grade, subject, semester)
-    persist_semester(semester)
-    grade_menu(grade, subject, semester)
+    def change_scaling_event(self, new_scaling: str):
+        new_scaling_float = int(new_scaling.replace("%", "")) / 100
+        customtkinter.set_widget_scaling(new_scaling_float)
 
-def edit_percentage(grade: Grade, subject: Subject, semester: Semester) -> None:
-    try:
-        grade.percentage = float(input("Porcentaje de la nota\nE.g: 0.2\n> "))
-    except ValueError:
-        print("El porcentaje debe ser un número decimal entre 0.0 y 1.0")
-        edit_percentage(grade, subject, semester)
-    persist_semester(semester)
-    grade_menu(grade, subject, semester)
-
-def edit_comments(grade: Grade, subject: Subject, semester: Semester) -> None:
-    grade.comments = input("Observaciones\nSi no hay ninguna, solo presione Enter\n> ")
-    persist_semester(semester)
-    grade_menu(grade, subject, semester)
-
-def new_grade(subject: Subject, semester: Semester) -> None:
-    name = input("Nombre de la nota\nE.g: Parcial 2: Programación dinámica y algoritmos sobre grafos\n> ")
-    try:
-        grade = float(input("Nota sobre 5\nE.g: 5.0\n> "))
-    except ValueError:
-        print("La nota debe ser un número decimal entre 0.0 y 5.0")
-        new_grade(subject, semester)
-    percentage = float(input("Porcentaje de la nota\nE.g: 0.2\n> "))
-    comments = input("Observaciones\nSi no hay ninguna, solo presione Enter\n> ")
-    grade = Grade(name, percentage, grade, comments)
-    subject.add_grade(grade)
-    persist_semester(semester)
-    subject_menu(subject, semester)
+    def sidebar_button_event(self):
+        print("sidebar_button click")
 
 
 if __name__ == "__main__":
-    menu()
+    MAJOR: Major = load_major()
+    app = App()
+    app.mainloop()

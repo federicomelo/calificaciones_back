@@ -4,9 +4,20 @@ from subject import Subject
 from grade import Grade
 from pathlib import Path
 from re import split
+import matplotlib.pyplot as plt
+import numpy as np
+from major import Major
 
 SRC: str = str(Path(__file__).parent.absolute())
 DATA: str = str(Path(__file__).parent.parent.absolute()) + "/data"
+# SEMESTERS = ["2020-20", "2021-10", "2021-20", "2022-10", "2022-19", "2022-20", "2023-10"]
+SEMESTERS = ["2020-20", "2021-10", "2023-10"]
+
+
+def load_major() -> Major:
+    semesters: list[Semester] = [import_semester(int(sem[:4]), int(sem[5:])) for sem in SEMESTERS]
+    return Major("Ingeniería de Sistemas y Computación", "DISC", semesters)
+
 
 def persist_semester(sem: Semester) -> None:
     print(sem.as_dict())
