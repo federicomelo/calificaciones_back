@@ -10,15 +10,16 @@ class BaseSubject(BaseModel):
     abbreviation: str
     credits: float
     rounding_policy: float
+    dropped: bool = False
+    semester_id: int
 
 
 class CreateSubject(BaseSubject):
-    semester_id: int
+    pass
 
 
 class Subject(BaseSubject):
     id: int
-    semester_id: int
 
     class Config:
         orm_mode = True

@@ -1,4 +1,4 @@
-# Python
+# -*- coding: utf-8 -*-
 
 import json
 
@@ -58,8 +58,8 @@ SUBJECTS = """|1|Consitución|DERE-1300, 11: Constitución y Democracia|
 def process_subjects(subjects=SUBJECTS):
     subjects_iter = iter(subjects.splitlines())
     processed_subjs = map(process_subject, subjects_iter)
-    subjs_json = json.dumps(list(processed_subjs), indent=4)
-    with open('subjects.json', 'w', encoding="UTF-8") as f:
+    subjs_json = json.dumps(list(processed_subjs), indent=4, ensure_ascii=False)
+    with open('subjects.json', 'w', encoding='utf-8') as f:
         f.write(subjs_json)
 
 
@@ -73,7 +73,7 @@ def process_subject(subject: str) -> dict:
     section = int(code_name[11:13])
     name = code_name[15:]
     return {
-        'semester': semester,
+        'semester_id': int(semester) if semester <= 4 else int(semester)+1,
         'abbreviation': abbreviation,
         'code': code,
         'number': number,

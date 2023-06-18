@@ -14,7 +14,7 @@ DB_PORT = settings.DB_PORT
 
 settings = Settings()
 
-SQLALCHEMY_DATABASE_URL = "sqlite:///./cupifeedback.db"
+SQLALCHEMY_DATABASE_URL = "sqlite:///./calificaciones.db"
 # SQLALCHEMY_DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}"
 
 engine = create_engine(
