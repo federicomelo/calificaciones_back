@@ -6,16 +6,14 @@ from decimal import Decimal, ROUND_HALF_UP
 
 class Subject:
 
-    fullname: str = ""
-    name: str = ""
-    code: str = ""
-    section: int = 0
-    nickname: str = ""
-    calculated_grade: float = .0
-    final_grade: float = .0
-    numeric_grade: bool = True
-    credits: int = 0
+    name: str
+    code: str
+    number: int
+    section: int
+    abbreviation: str
+    credits: int
     rounding_policy: float = .01
+    
     grades: list[Grade] = []
     discussion: Subject = None
     laboratory: Subject = None
@@ -32,10 +30,10 @@ class Subject:
                 self.credits = credits
                 self.code = code
                 self.section = section
-                self.nickname = nickname
+                self.abbreviation = nickname
                 self.fullname = self.code + ", " + \
                     str(self.section) + ": " + self.name + \
-                    " (" + self.nickname + ")"
+                    " (" + self.abbreviation + ")"
             case (name, credits, code, section):
                 self.name = name
                 self.credits = credits
@@ -108,7 +106,7 @@ class Subject:
             "code": self.code,
             "section": self.section,
         }
-        dict_.update({"nickname": self.nickname} if self.nickname else {})
+        dict_.update({"nickname": self.abbreviation} if self.abbreviation else {})
         dict_.update({
             "credits": self.credits,
             "numeric": self.numeric_grade,

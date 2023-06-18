@@ -110,22 +110,22 @@
           "percentage": 0.1
         },
         {
-          "name": "Sprint 1: Visión de arquitectura",
+          "name": "Sprint 0: Visión de arquitectura",
           "grade": 0.0,
           "percentage": 0.1
         },
         {
-          "name": "Sprint 2: Latencia y escalabilidad (desempeño)",
+          "name": "Sprint 1: Latencia y escalabilidad (desempeño)",
           "grade": 0.0,
           "percentage": 0.12
         },
         {
-          "name": "Sprint 3: Disponibilidad y seguridad",
+          "name": "Sprint 2: Disponibilidad y seguridad",
           "grade": 0.0,
           "percentage": 0.12
         },
         {
-          "name": "Sprint 4: Microservicios",
+          "name": "Sprint 3: Microservicios",
           "grade": 0.0,
           "percentage": 0.16
         },
@@ -136,7 +136,7 @@
         },
         {
           "name": "Actividades y tareas del \"antes\"",
-          "grade": 0.0,
+          "grade": 0.0, 
           "percentage": 0.1
         },
         {
