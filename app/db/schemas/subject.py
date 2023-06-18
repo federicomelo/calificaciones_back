@@ -22,4 +22,17 @@ class Subject(BaseSubject):
 
     class Config:
         orm_mode = True
-        
+
+        schema_extra = {
+            "example": {
+                "id": 101,  # This id is ignored by the database, which assigns its own id
+                "name": "Arquitectura Empresarial",
+                "code": "ISIS",
+                "number": "2403",
+                "section": 2,
+                "abbreviation": "Arquiemp",
+                "credits": 3,
+                "rounding_policy": 0.5,
+                "semester_id": 7
+            }
+        }
