@@ -1,6 +1,6 @@
 from app.db.db import Base
 from sqlalchemy.orm import relationship
-from sqlalchemy import Column, Integer, String, Boolean
+from sqlalchemy import Column, Integer, String, ForeignKey
 
 class Subject(Base):
     __tablename__ = "subject"
@@ -14,7 +14,7 @@ class Subject(Base):
     credits = Column(Integer, nullable=False)
     rounding_policy = Column(Integer, nullable=False)
 
-    semester_id = Column(Integer, nullable=False)
+    semester_id = Column(Integer, ForeignKey("semester.id"), nullable=False) 
     semester = relationship("Semester", back_populates="subjects")
 
     assignments = relationship("Assignment", back_populates="subject")

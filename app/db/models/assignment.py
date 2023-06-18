@@ -1,6 +1,6 @@
 from app.db.db import Base
 from sqlalchemy.orm import relationship
-from sqlalchemy import Column, Integer, String, Boolean
+from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
 
 
 class Assignment(Base):
@@ -12,6 +12,6 @@ class Assignment(Base):
     grade = Column(Integer, nullable=False)
     comments = Column(String, nullable=False)
 
-    subject_id = Column(Integer, nullable=False, ForeugnKey("subject.id"))
+    subject_id = Column(Integer, ForeignKey("subject.id"), nullable=False)
     subject = relationship("Subject", back_populates="assignments")
 

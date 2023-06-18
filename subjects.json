@@ -1,0 +1,512 @@
+[
+    {
+        "semester": 1.0,
+        "abbreviation": "Consitución",
+        "code": "DERE",
+        "number": 1300,
+        "section": 11,
+        "name": "Constitución y Democracia",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 1.0,
+        "abbreviation": "Diferencial",
+        "code": "MATE",
+        "number": 1203,
+        "section": 4,
+        "name": "Cálculo Diferencial",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 1.0,
+        "abbreviation": "Escritura II",
+        "code": "LENG",
+        "number": 1512,
+        "section": 36,
+        "name": "Escritura Universitaria II (Ciclo 2 de 8 semanas)",
+        "credits": 2,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 1.0,
+        "abbreviation": "Escritura I",
+        "code": "LENG",
+        "number": 1511,
+        "section": 6,
+        "name": "Escritura Universitaria I (Ciclo 1 de 8 semanas)",
+        "credits": 2,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 1.0,
+        "abbreviation": "Herramientas",
+        "code": "DECA",
+        "number": 1001,
+        "section": 5,
+        "name": "Herramientas para la Vida Universitaria",
+        "credits": 1,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 1.0,
+        "abbreviation": "IP",
+        "code": "ISIS",
+        "number": 1221,
+        "section": 28,
+        "name": "Introducción a la Programación",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 1.0,
+        "abbreviation": "Intro a Física",
+        "code": "FISI",
+        "number": 1502,
+        "section": 1,
+        "name": "Introducción a la Física",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 1.0,
+        "abbreviation": "Natación",
+        "code": "DEPO",
+        "number": 1228,
+        "section": 2,
+        "name": "Selección de Natación",
+        "credits": 1,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 2.0,
+        "abbreviation": "CBU Colombia",
+        "code": "CBCC",
+        "number": 1177,
+        "section": 18,
+        "name": "Colombia: Espacio, Tiempo y Diferencia (Ciclo 1 de 8 semanas)",
+        "credits": 2,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 2.0,
+        "abbreviation": "Filosofía Sueños",
+        "code": "CBCA",
+        "number": 1329,
+        "section": 1,
+        "name": "Filosofía de los Sueños y Adivinación en la Antigüedad",
+        "credits": 2,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 2.0,
+        "abbreviation": "Física 1",
+        "code": "FISI",
+        "number": 1518,
+        "section": 16,
+        "name": "Física 1",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 2.0,
+        "abbreviation": "Integral",
+        "code": "MATE",
+        "number": 1214,
+        "section": 35,
+        "name": "Cálculo Integral con Ecuaciones Diferenciales",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 2.0,
+        "abbreviation": "Intro a Ciencias",
+        "code": "FCIE",
+        "number": 1010,
+        "section": 1,
+        "name": "Introducción a las Ciencias (Ciclo 2 de 8 semanas)",
+        "credits": 2,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 2.0,
+        "abbreviation": "Lineal 1",
+        "code": "MATE",
+        "number": 1105,
+        "section": 18,
+        "name": "Álgebra Lineal 1",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 2.0,
+        "abbreviation": "Natación",
+        "code": "DEPO",
+        "number": 1228,
+        "section": 2,
+        "name": "Selección de Natación",
+        "credits": 1,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 2.0,
+        "abbreviation": "Química",
+        "code": "QUIM",
+        "number": 1103,
+        "section": 2,
+        "name": "Química",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 3.0,
+        "abbreviation": "Alemán 1",
+        "code": "LENG",
+        "number": 1301,
+        "section": 8,
+        "name": "Alemán 1",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 3.0,
+        "abbreviation": "EDA",
+        "code": "ISIS",
+        "number": 1225,
+        "section": 2,
+        "name": "Estructuras de Datos y Algoritmos",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 3.0,
+        "abbreviation": "Estructural",
+        "code": "MATE",
+        "number": 1102,
+        "section": 1,
+        "name": "Matemática Estructural",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 3.0,
+        "abbreviation": "Física 2",
+        "code": "FISI",
+        "number": 1528,
+        "section": 26,
+        "name": "Física 2",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 3.0,
+        "abbreviation": "Métodos 1",
+        "code": "FISI",
+        "number": 2526,
+        "section": 1,
+        "name": "Métodos Computacionales 1",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 3.0,
+        "abbreviation": "Natación",
+        "code": "DEPO",
+        "number": 1228,
+        "section": 2,
+        "name": "Selección de Natación",
+        "credits": 1,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 3.0,
+        "abbreviation": "Vecto",
+        "code": "MATE",
+        "number": 1207,
+        "section": 19,
+        "name": "Cálculo Vectorial",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 4.5,
+        "abbreviation": "CBU Blues",
+        "code": "CBCA",
+        "number": 1154,
+        "section": 1,
+        "name": "Apreciación de Blues y Rock Clásico",
+        "credits": 2,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 4.5,
+        "abbreviation": "CBU Casa",
+        "code": "CBCA",
+        "number": 1012,
+        "section": 1,
+        "name": "La Historia de una Casa: Un Relato del Habitar Doméstico en Occidente",
+        "credits": 2,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 4.5,
+        "abbreviation": "Proba 1",
+        "code": "IIND",
+        "number": 2106,
+        "section": 2,
+        "name": "Probabilidad y Estadística 1",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 4.0,
+        "abbreviation": "Alemán 2",
+        "code": "LENG",
+        "number": 1302,
+        "section": 2,
+        "name": "Alemán 2",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 4.0,
+        "abbreviation": "CBU Pensamiento Comp",
+        "code": "CBPC",
+        "number": 1176,
+        "section": 1,
+        "name": "Introducción al Pensamiento Computacional (Ciclo 1 de 8 semanas) (\u00c9psilon)",
+        "credits": 2,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 4.0,
+        "abbreviation": "CBU Química",
+        "code": "CBPC",
+        "number": 1174,
+        "section": 1,
+        "name": "Química, Leyes y Conceptos (Ciclo 1 de 8 semanas)",
+        "credits": 2,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 4.0,
+        "abbreviation": "Cupi",
+        "code": "ISIS",
+        "number": 1211,
+        "section": 1,
+        "name": "Cupitaller",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 4.0,
+        "abbreviation": "DPOO",
+        "code": "ISIS",
+        "number": 1226,
+        "section": 3,
+        "name": "Diseño y Programación Orientada a Objetos",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 4.0,
+        "abbreviation": "Infratec",
+        "code": "ISIS",
+        "number": 1304,
+        "section": 3,
+        "name": "Fundamentos de Infraestructura Tecnológica",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 4.0,
+        "abbreviation": "Natación",
+        "code": "DEPO",
+        "number": 1228,
+        "section": 2,
+        "name": "Selección de Natación",
+        "credits": 1,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 4.0,
+        "abbreviation": "TI",
+        "code": "ISIS",
+        "number": 1404,
+        "section": 8,
+        "name": "Tecnologías de la Información (TI) en las Organizaciones (Tipo E)",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 4.0,
+        "abbreviation": "Vecto",
+        "code": "MATE",
+        "number": 1207,
+        "section": 20,
+        "name": "Cálculo Vectorial",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 5.0,
+        "abbreviation": "Alemán 3",
+        "code": "LENG",
+        "number": 1303,
+        "section": 2,
+        "name": "Alemán 3",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 5.0,
+        "abbreviation": "CBU Moda",
+        "code": "CBCA",
+        "number": 1061,
+        "section": 1,
+        "name": "Historia del Traje en Occidente (Tipo E)",
+        "credits": 2,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 5.0,
+        "abbreviation": "Dalgo",
+        "code": "ISIS",
+        "number": 1105,
+        "section": 3,
+        "name": "Diseño y Análisis de Algoritmos (Dalgo)",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 5.0,
+        "abbreviation": "Desarrollo",
+        "code": "ISIS",
+        "number": 2603,
+        "section": 3,
+        "name": "Desarrollo de Software en Equipos",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 5.0,
+        "abbreviation": "Intro",
+        "code": "ISIS",
+        "number": 1001,
+        "section": 4,
+        "name": "Introducción a la Ingeniería de Sistemas",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 5.0,
+        "abbreviation": "LYM",
+        "code": "ISIS",
+        "number": 1106,
+        "section": 2,
+        "name": "Lenguajes y Máquinas (LYM) (Tipo I)",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 5.0,
+        "abbreviation": "Natación",
+        "code": "DEPO",
+        "number": 1228,
+        "section": 2,
+        "name": "Selección de Natación",
+        "credits": 1,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 5.0,
+        "abbreviation": "Sistrans",
+        "code": "ISIS",
+        "number": 2304,
+        "section": 3,
+        "name": "Sistemas Transaccionales (Sistrans)",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 6.0,
+        "abbreviation": "Arquiemp",
+        "code": "ISIS",
+        "number": 2403,
+        "section": 2,
+        "name": "Arquitectura Empresarial (Arquiemp)",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 6.0,
+        "abbreviation": "Arquisoft",
+        "code": "ISIS",
+        "number": 2503,
+        "section": 2,
+        "name": "Arquitectura y Diseño de Software (Arquisoft)",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 6.0,
+        "abbreviation": "Infracomp",
+        "code": "ISIS",
+        "number": 2203,
+        "section": 1,
+        "name": "Infraestructura Computacional (Infracomp)",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 6.0,
+        "abbreviation": "MOS",
+        "code": "ISIS",
+        "number": 3302,
+        "section": 2,
+        "name": "Modelado, Simulación y Optimización (MOS)",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 6.0,
+        "abbreviation": "Natación",
+        "code": "DEPO",
+        "number": 1228,
+        "section": 2,
+        "name": "Selección de Natación",
+        "credits": 1,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 6.0,
+        "abbreviation": "PMC",
+        "code": "ISIS",
+        "number": 2007,
+        "section": 1,
+        "name": "Diseño de Productos e Innovación en TI (PMC)",
+        "credits": 3,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 6.0,
+        "abbreviation": "CBU Animales",
+        "code": "CBCO",
+        "number": 1345,
+        "section": 1,
+        "name": "El Animal en el Paisaje Colombiano",
+        "credits": 2,
+        "rounding_policy": 0.01
+    },
+    {
+        "semester": 6.0,
+        "abbreviation": "Juegos",
+        "code": "MATE",
+        "number": 3712,
+        "section": 1,
+        "name": "Teoría de Juegos",
+        "credits": 3,
+        "rounding_policy": 0.01
+    }
+]

@@ -8,7 +8,7 @@ class AssignmentBase(BaseModel):
     comments: str
 
 
-class AssignmentCreate(AssignmentBase):
+class CreateAssignment(AssignmentBase):
     subject_id: int
 
 
