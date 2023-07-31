@@ -1,12 +1,13 @@
+from app.data.examples import SUBJECTS
 from app.logic import subject as logic
 from app.db.schemas import subject as schema
 from app.db.db import get_db
 
 from sqlalchemy.orm import Session
 
-from typing import List
+from typing import List, Annotated
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Body
 
 router = APIRouter(
     prefix="/subjects",
@@ -40,7 +41,10 @@ def create_subject(
 
 @router.post("/bulk", response_model=List[schema.Subject])
 def create_subjects(
-    subjects: List[schema.CreateSubject], db: Session = Depends(get_db)
+    subjects: Annotated[
+        List[schema.CreateSubject],
+        Body(example=SUBJECTS)
+    ], db: Session = Depends(get_db)
 ):
     return logic.create_subjects(db, subjects)
 

@@ -19,6 +19,14 @@ def get_assignments(db: Session, skip: int = 0, limit: int = 100):
     return db.query(AssignmentModel).offset(skip).limit(limit).all()
 
 
+def get_assignments_by_subject_id(db: Session, subject_id: int):
+    return (
+        db.query(AssignmentModel)
+        .filter(AssignmentModel.subject_id == subject_id)
+        .all()
+    )
+
+
 def create_assignment(
     db: Session, assignment: CreateAssignment
 ):

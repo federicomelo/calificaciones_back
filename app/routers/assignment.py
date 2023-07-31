@@ -1,12 +1,13 @@
+from app.data.examples import ASSIGNMENTS
 from app.logic import assignment as logic
 from app.db.schemas import assignment as schema
 from app.db.db import get_db
 
 from sqlalchemy.orm import Session
 
-from typing import List
+from typing import Annotated, List
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Body, Depends, HTTPException
 
 router = APIRouter(
     prefix="/assignments",
@@ -40,7 +41,10 @@ def create_assignment(
 
 @router.post("/bulk", response_model=List[schema.Assignment])
 def create_assignments(
-    assignments: List[schema.CreateAssignment], db: Session = Depends(get_db)
+    assignments: Annotated[
+        List[schema.CreateAssignment],
+        Body(example=ASSIGNMENTS)
+    ], db: Session = Depends(get_db)
 ):
     return logic.create_assignments(db, assignments)
 
@@ -69,3 +73,11 @@ def delete_assignment(
     return {
         "detail": f"Deleted {logic.delete_assignment(db, assignment_id)} assignment"
     }
+
+
+@router.get("/subject/{subject_id}", response_model=List[schema.Assignment])
+def get_assignments_by_subject_id(
+    subject_id: int, db: Session = Depends(get_db)
+):
+    assignments = logic.get_assignments_by_subject_id(db, subject_id)
+    return assignments

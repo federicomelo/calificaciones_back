@@ -1,3 +1,4 @@
+from typing import Optional
 from pydantic import BaseModel
 
 
@@ -5,11 +6,12 @@ class AssignmentBase(BaseModel):
     name: str
     percentage: float
     grade: float
-    comments: str
+    comments: Optional[str] = None
+    subject_id: int
 
 
 class CreateAssignment(AssignmentBase):
-    subject_id: int
+    pass
 
 
 class Assignment(AssignmentBase):

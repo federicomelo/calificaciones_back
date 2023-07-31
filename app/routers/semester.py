@@ -1,12 +1,14 @@
+from app.data.examples import SEMESTERS
 from app.logic import semester as logic
 from app.db.schemas import semester as schema
 from app.db.db import get_db
 
 from sqlalchemy.orm import Session
 
-from typing import List
+from typing import List, Annotated
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Body
+
 
 router = APIRouter(
     prefix="/semesters",
@@ -40,7 +42,10 @@ def create_semester(
 
 @router.post("/bulk", response_model=List[schema.Semester])
 def create_semesters(
-    semesters: List[schema.CreateSemester], db: Session = Depends(get_db)
+    semesters: Annotated[
+        List[schema.CreateSemester],
+        Body(example=SEMESTERS)
+     ], db: Session = Depends(get_db)
 ):
     return logic.create_semesters(db, semesters)
 
