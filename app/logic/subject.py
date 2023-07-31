@@ -69,3 +69,11 @@ def delete_subject(db: Session, subject_id: int):
     )
     db.commit()
     return rows_deleted
+
+
+def get_subjects_by_semester_id(db: Session, semester_id: int):
+    return (
+        db.query(SubjectModel)
+        .filter(SubjectModel.semester_id == semester_id)
+        .all()
+    )

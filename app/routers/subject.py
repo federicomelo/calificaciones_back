@@ -73,3 +73,11 @@ def delete_subject(
     return {
         "detail": f"Deleted {logic.delete_subject(db, subject_id)} subject"
     }
+
+
+@router.get("/semester/{semester_id}", response_model=List[schema.Subject])
+def get_subjects_by_semester_id(
+    semester_id: int, db: Session = Depends(get_db)
+):
+    db_subjects = logic.get_subjects_by_semester_id(db, semester_id)
+    return db_subjects
